@@ -11,6 +11,7 @@
 		04B672A521FBC36E006FA856 /* Client.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04B672A421FBC36E006FA856 /* Client.cpp */; };
 		04B672A721FBC39A006FA856 /* Achat.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04B672A621FBC39A006FA856 /* Achat.cpp */; };
 		04B672A921FBC3B1006FA856 /* Produit.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04B672A821FBC3B1006FA856 /* Produit.cpp */; };
+		04B672AF21FBCD26006FA856 /* mListerRechercher.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04B672AE21FBCD26006FA856 /* mListerRechercher.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -34,6 +35,8 @@
 		04B672AA21FBC3DC006FA856 /* Client.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Client.h; sourceTree = "<group>"; };
 		04B672AB21FBC8B2006FA856 /* Produit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Produit.h; sourceTree = "<group>"; };
 		04B672AC21FBC9FA006FA856 /* Achat.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Achat.h; sourceTree = "<group>"; };
+		04B672AD21FBCD02006FA856 /* mListerRechercher.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mListerRechercher.h; sourceTree = "<group>"; };
+		04B672AE21FBCD26006FA856 /* mListerRechercher.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = mListerRechercher.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +81,7 @@
 			children = (
 				04B672A421FBC36E006FA856 /* Client.cpp */,
 				04B672A621FBC39A006FA856 /* Achat.cpp */,
+				04B672AE21FBCD26006FA856 /* mListerRechercher.cpp */,
 				04B672A821FBC3B1006FA856 /* Produit.cpp */,
 			);
 			path = Sources;
@@ -88,6 +92,7 @@
 			children = (
 				04B672AA21FBC3DC006FA856 /* Client.h */,
 				04B672AB21FBC8B2006FA856 /* Produit.h */,
+				04B672AD21FBCD02006FA856 /* mListerRechercher.h */,
 				04B672AC21FBC9FA006FA856 /* Achat.h */,
 			);
 			path = Includes;
@@ -150,6 +155,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				04B672A721FBC39A006FA856 /* Achat.cpp in Sources */,
+				04B672AF21FBCD26006FA856 /* mListerRechercher.cpp in Sources */,
 				04B672A521FBC36E006FA856 /* Client.cpp in Sources */,
 				04B6729C21FBC2D4006FA856 /* main.cpp in Sources */,
 				04B672A921FBC3B1006FA856 /* Produit.cpp in Sources */,
