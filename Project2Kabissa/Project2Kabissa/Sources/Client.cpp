@@ -31,7 +31,11 @@ Client::Client(string name1,string prenom1,string ville1,string sexe1,string d){
     nom=name1;
     prenom=prenom1;
     ville=ville1;
-    sexe=sexe1;
+    if(sexe1[0]=='m'||sexe1[0]=='M'){
+       sexe="M";
+    }else{
+        sexe="F";
+    }
     dateNaissance=d;
 }
 

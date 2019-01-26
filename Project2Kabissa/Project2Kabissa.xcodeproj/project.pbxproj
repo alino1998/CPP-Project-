@@ -12,6 +12,7 @@
 		04B672A721FBC39A006FA856 /* Achat.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04B672A621FBC39A006FA856 /* Achat.cpp */; };
 		04B672A921FBC3B1006FA856 /* Produit.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04B672A821FBC3B1006FA856 /* Produit.cpp */; };
 		04B672AF21FBCD26006FA856 /* mListerRechercher.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04B672AE21FBCD26006FA856 /* mListerRechercher.cpp */; };
+		04B672B121FBCF95006FA856 /* mAjoutSupprimerModifier.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04B672B021FBCF95006FA856 /* mAjoutSupprimerModifier.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -37,6 +38,8 @@
 		04B672AC21FBC9FA006FA856 /* Achat.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Achat.h; sourceTree = "<group>"; };
 		04B672AD21FBCD02006FA856 /* mListerRechercher.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mListerRechercher.h; sourceTree = "<group>"; };
 		04B672AE21FBCD26006FA856 /* mListerRechercher.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = mListerRechercher.cpp; sourceTree = "<group>"; };
+		04B672B021FBCF95006FA856 /* mAjoutSupprimerModifier.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = mAjoutSupprimerModifier.cpp; sourceTree = "<group>"; };
+		04B672B221FBCFB2006FA856 /* mAjoutSupprimerModifier.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mAjoutSupprimerModifier.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +84,7 @@
 			children = (
 				04B672A421FBC36E006FA856 /* Client.cpp */,
 				04B672A621FBC39A006FA856 /* Achat.cpp */,
+				04B672B021FBCF95006FA856 /* mAjoutSupprimerModifier.cpp */,
 				04B672AE21FBCD26006FA856 /* mListerRechercher.cpp */,
 				04B672A821FBC3B1006FA856 /* Produit.cpp */,
 			);
@@ -94,6 +98,7 @@
 				04B672AB21FBC8B2006FA856 /* Produit.h */,
 				04B672AD21FBCD02006FA856 /* mListerRechercher.h */,
 				04B672AC21FBC9FA006FA856 /* Achat.h */,
+				04B672B221FBCFB2006FA856 /* mAjoutSupprimerModifier.h */,
 			);
 			path = Includes;
 			sourceTree = "<group>";
@@ -154,6 +159,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04B672B121FBCF95006FA856 /* mAjoutSupprimerModifier.cpp in Sources */,
 				04B672A721FBC39A006FA856 /* Achat.cpp in Sources */,
 				04B672AF21FBCD26006FA856 /* mListerRechercher.cpp in Sources */,
 				04B672A521FBC36E006FA856 /* Client.cpp in Sources */,
