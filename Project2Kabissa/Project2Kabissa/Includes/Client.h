@@ -25,6 +25,7 @@ private:
 public:
     Client();
     Client(string,string,string,string,string);
+    Client(int,string,string,string,string,string);//uniquement pour interagir avec les files
     Client(Client &);
     ~Client();
     

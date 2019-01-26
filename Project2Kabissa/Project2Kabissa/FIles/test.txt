@@ -1,0 +1,4 @@
+1234	Jus d'ananas	10	2.
+323	Mangue	5	10.
+11	dd	22	33.
+112	sddd	122	445.

@@ -8,7 +8,7 @@
 
 #include <iostream>
 #include <string>
-//#include "mFichiers.h"
+#include "mFichiers.h"
 #include "Client.h"
 #include "Produit.h"
 #include "Achat.h"
@@ -60,12 +60,13 @@ int main(int argc, const char * argv[]) {
     // insert code here...
 
     int sTC=2,sTP=2,sTA=2;
+    string const f_location="/Users/mac/Desktop/C++Learning/CPP-Project-/Project2Kabissa/Project2Kabissa/Files/test.txt";
     Client tabClient[100];
     Produit tabProduit[100];
     Achat tabAchat[100];
     instanciationObjet(tabClient,tabProduit,tabAchat);
     
-    string sortir="oui";
+    string sortir="oui";/*
     while (sortir[0]!='n' && sortir[0]!='N' ) {
         msg1();
         int choix;
@@ -191,7 +192,12 @@ int main(int argc, const char * argv[]) {
         }
         cout<<"Voulez vous continuer (Oui/Non) : ";
         getline(cin,sortir);
-    }
+    }*/
+//    ajout(tabProduit, sTP);
+//    ajout(tabProduit, sTP);
+//    Update_f(f_location,tabProduit, sTP);
+    Update_tab(f_location, tabProduit, sTP);
+    affichage(tabProduit, sTP);
     return 0;
 }
 

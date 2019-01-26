@@ -39,6 +39,21 @@ Client::Client(string name1,string prenom1,string ville1,string sexe1,string d){
     dateNaissance=d;
 }
 
+Client::Client(int id,string name1,string prenom1,string ville1,string sexe1,string d){
+    codeClient=id;
+    compteurClient=compteurClient;
+    nom=name1;
+    prenom=prenom1;
+    ville=ville1;
+    if(sexe1[0]=='m'||sexe1[0]=='M'){
+        sexe="M";
+    }else{
+        sexe="F";
+    }
+    dateNaissance=d;
+}
+
+
 Client::Client(Client &p){
     codeClient=p.codeClient;
     nom=p.nom;
