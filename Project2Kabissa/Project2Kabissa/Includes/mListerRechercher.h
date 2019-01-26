@@ -16,14 +16,14 @@
 using namespace std;
 
 // listage d'objet
-void affichage(Client tab[],int &n);
-void affichage(Produit tab[],int &n);
-void affichage(Achat tab[],int &n);
+void affichage(Client tab[],int n);
+void affichage(Produit tab[],int n);
+void affichage(Achat tab[],int n);
 
 //methode de recherche d'objet
 
-void recherche(Client tab[],int &n);
-void recherche(Produit tab[],int &n);
-void recherche(Achat tab[],int &n);
+void recherche(Client tab[],int n);
+void recherche(Produit tab[],int n);
+void recherche(Achat tab[],int n);
 
 #endif /* mListerRechercher_h */

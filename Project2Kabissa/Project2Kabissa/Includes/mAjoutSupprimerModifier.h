@@ -16,16 +16,16 @@
 using namespace std;
 
 //ajout de clients / Produit / Achat
-void ajout(Client tab[],int *n);
-void ajout(Produit tab[],int *n);
-void ajout(Achat tab[],int *n);
+void ajout(Client tab[],int &n);
+void ajout(Produit tab[],int &n);
+void ajout(Achat tabA[],int &na,Client tabC[],int nc,Produit tabP[],int np );
 
-void modif(Client tab[],int &n);
-void modif(Produit tab[],int &n);
-void modif(Achat tabA[],int &na,Client tabC[],int &nc,Produit tabP[],int &np );
+void modif(Client tab[],int n);
+void modif(Produit tab[],int n);
+void modif(Achat tabA[],int na,Client tabC[],int nc,Produit tabP[],int np );
 
-void supprimer(Client tab[],int *n);
-void supprimer(Produit tab[],int *n);
-void supprimer(Achat tab[],int *n);
+void supprimer(Client tab[],int &n);
+void supprimer(Produit tab[],int &n);
+void supprimer(Achat tab[],int &n);
 
 #endif /* mAjoutSupprimerModifier_h */

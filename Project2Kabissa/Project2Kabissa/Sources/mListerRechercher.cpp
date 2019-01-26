@@ -16,21 +16,24 @@
 using namespace std;
 
 //affichages des objets
-void affichage(Client tab[],int &n){
-    cout<<"lsite des clients"<<endl;
+void affichage(Client tab[],int n){
+    cout<<"liste des clients"<<endl;
+    
     for (int i=0; i<n; i++) {
         tab[i].afficher();
     }
     cout<<"*****Client affiché*****"<<endl;
 }
-void affichage(Produit tab[],int &n){
+
+
+void affichage(Produit tab[],int n){
     cout<<"listes des produits disponibles "<<endl;
     for (int i=0; i<n; i++) {
         tab[i].afficher();
     }
     cout<<"*****Produit affiché*****"<<endl;
 }
-void affichage(Achat tab[],int &n){
+void affichage(Achat tab[],int n){
     cout<<"listes des achats effectués "<<endl;
     for (int i=0; i<n; i++) {
         tab[i].afficher();
@@ -40,7 +43,7 @@ void affichage(Achat tab[],int &n){
 
 //recherche d'un objet
 
-void recherche(Client tab[],int &n){
+void recherche(Client tab[],int n){
     int choix;
     bool x=true;
     cout<<"Choissisez le type de recherche que vous voulez effectuer :"<<endl;
@@ -57,6 +60,7 @@ void recherche(Client tab[],int &n){
         {int Arechercher;
             cout<<"entrez le code client du client a rechercher : ";
             cin>>Arechercher;
+            cin.ignore();
             for (int i=0; i<n; i++) {
                 if(tab[i].getCodeClient()==Arechercher){
                     tab[i].afficher();
@@ -161,7 +165,7 @@ void recherche(Client tab[],int &n){
     
 }
 
-void recherche(Produit tab[],int &n){
+void recherche(Produit tab[],int n){
     int choix;
     bool x=true;
     cout<<"Choissisez le type de recherche que vous voulez effectuer :"<<endl;
@@ -171,12 +175,12 @@ void recherche(Produit tab[],int &n){
     cout<<"4 : par quantite "<<endl;
     cout<< "votre choix : ";
     cin>>choix;
-    cin.ignore();
     switch (choix) {
         case 1:
         {int Arechercher;
             cout<<"entrez l'identifiant du produit a rechercher : ";
             cin>>Arechercher;
+            cin.ignore();
             for (int i=0; i<n; i++) {
                 if(tab[i].getIdProduit()==Arechercher){
                     tab[i].afficher();
@@ -192,6 +196,7 @@ void recherche(Produit tab[],int &n){
         case 2:
         {string Arechercher;
             cout<<"entrez le nom du produit a rechercher : ";
+            cin.ignore();
             getline(cin,Arechercher);
             for (int i=0; i<n; i++) {
                 if(tab[i].getNom()==Arechercher){
@@ -209,6 +214,7 @@ void recherche(Produit tab[],int &n){
         {int Arechercher;
             cout<<"entrez le prix unitaire du produit a rechercher : ";
             cin>>Arechercher;
+            cin.ignore();
             for (int i=0; i<n; i++) {
                 if(tab[i].getprixUnitaire()==Arechercher){
                     tab[i].afficher();
@@ -225,6 +231,7 @@ void recherche(Produit tab[],int &n){
         {int Arechercher;
             cout<<"entrez la quantite du produit a rechercher : ";
             cin>>Arechercher;
+            cin.ignore();
             for (int i=0; i<n; i++) {
                 if(tab[i].getquantite()==Arechercher){
                     tab[i].afficher();
@@ -244,7 +251,7 @@ void recherche(Produit tab[],int &n){
     
 }
 
-void recherche(Achat tab[],int &n){
+void recherche(Achat tab[],int n){
     int choix;
     bool x=true;
     cout<<"Choissisez le type de recherche que vous voulez effectuer :"<<endl;
@@ -307,6 +314,7 @@ void recherche(Achat tab[],int &n){
         case 4:
         {string Arechercher;
             cout<<"entrez la quantite du produit a rechercher : ";
+            cin.ignore();
             getline(cin,Arechercher);
             for (int i=0; i<n; i++) {
                 if(tab[i].getDate()==Arechercher){

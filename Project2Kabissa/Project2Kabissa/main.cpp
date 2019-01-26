@@ -60,15 +60,13 @@ int main(int argc, const char * argv[]) {
     // insert code here...
 
     int sTC=2,sTP=2,sTA=2;
-    int *pC,*pP,*pA;
-    Client tabClient[sTC];
-    Produit tabProduit[sTP];
-    Achat tabAchat[sTA];
-    pC=&sTC;pP=&sTP;pA=&sTA;
+    Client tabClient[100];
+    Produit tabProduit[100];
+    Achat tabAchat[100];
     instanciationObjet(tabClient,tabProduit,tabAchat);
     
     string sortir="oui";
-    while (sortir[0]!='n') {
+    while (sortir[0]!='n' && sortir[0]!='N' ) {
         msg1();
         int choix;
         cin>>choix;
@@ -80,13 +78,16 @@ int main(int argc, const char * argv[]) {
                     cin>>choix2;
                     switch (choix2) {
                         case 1:
-                            affichage(tabClient, *pC);
+                            {affichage(tabClient, sTC);
+                            cin.ignore();}
                             break;
                         case 2:
-                            affichage(tabProduit, *pP);
+                            {affichage(tabProduit, sTP);
+                            cin.ignore();}
                             break;
                         case 3:
-                            affichage(tabAchat, *pA);
+                            affichage(tabAchat, sTA);
+                            cin.ignore();
                             break;
                         default:
                             msg3();
@@ -101,13 +102,13 @@ int main(int argc, const char * argv[]) {
                 cin>>choix2;
                 switch (choix2) {
                     case 1:
-                        recherche(tabClient, *pC);
+                        {recherche(tabClient, sTC);}
                         break;
                     case 2:
-                        recherche(tabProduit, *pP);
+                        {recherche(tabProduit, sTP);}
                         break;
                     case 3:
-                        recherche(tabAchat, *pA);
+                        {recherche(tabAchat, sTA);}
                         break;
                     default:
                         msg3();
@@ -122,13 +123,13 @@ int main(int argc, const char * argv[]) {
                 cin>>choix2;
                 switch (choix2) {
                     case 1:
-                        modif(tabClient, *pC);
+                        {modif(tabClient, sTC);}
                         break;
                     case 2:
-                        modif(tabProduit, *pP);
+                        {modif(tabProduit, sTP);}
                         break;
                     case 3:
-                        modif(tabAchat, *pA, tabClient, *pC, tabProduit, *pP);
+                        {modif(tabAchat, sTA, tabClient, sTC, tabProduit, sTP);}
                         break;
                     default:
                         msg3();
@@ -143,13 +144,15 @@ int main(int argc, const char * argv[]) {
                 cin>>choix2;
                 switch (choix2) {
                     case 1:
-                        ajout(tabClient, pC);
+                        {cin.ignore();
+                        ajout(tabClient, sTC);}
                         break;
                     case 2:
-                        ajout(tabProduit, pP);
+                        {ajout(tabProduit, sTP);
+                        cin.ignore();}
                         break;
                     case 3:
-                        ajout(tabAchat, pA);
+                        {ajout(tabAchat, sTA, tabClient, sTC, tabProduit, sTP);}
                         break;
                     default:
                         msg3();
@@ -164,13 +167,16 @@ int main(int argc, const char * argv[]) {
                 cin>>choix2;
                 switch (choix2) {
                     case 1:
-                        supprimer(tabClient, pC);
+                    {supprimer(tabClient, sTC);
+                        cin.ignore();}
                         break;
                     case 2:
-                        supprimer(tabProduit, pP);
+                    {supprimer(tabProduit, sTP);
+                        cin.ignore();}
                         break;
                     case 3:
-                        supprimer(tabAchat, pA);
+                    {supprimer(tabAchat, sTA);
+                        cin.ignore();}
                         break;
                     default:
                         msg3();
@@ -183,8 +189,7 @@ int main(int argc, const char * argv[]) {
                 msg3();
                 break;
         }
-        cin.ignore();
-        cout<<"Voulez vous continuer (o/n) : ";
+        cout<<"Voulez vous continuer (Oui/Non) : ";
         getline(cin,sortir);
     }
     return 0;

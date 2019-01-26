@@ -34,14 +34,13 @@ Client searchItem(Client tab[],int n,int id){
     }
     return x;
 }
-
+//
 
 
 //ajouter des donnees
 
-void ajout(Client tab[],int *n){
-    cin.ignore();
-    string nom,prenom,ville,sexe,dateDeNaissance;
+void ajout(Client tab[],int &n){
+    string nom,prenom,ville,sexe,happybirhday;
     cout<<"Veillez saisir les informations du clients a ajouter "<<endl;
     cout<<"Nom : ";
     getline(cin,nom);
@@ -52,14 +51,14 @@ void ajout(Client tab[],int *n){
     cout<<"Sexe : ";
     getline(cin,sexe);
     cout<<"Date de naissance : ";
-    getline(cin,dateDeNaissance);
-    Client newClient(nom,prenom,ville,sexe,dateDeNaissance);
-    (*n)++;
-    tab[(*n)-1]=newClient;
+    getline(cin,happybirhday);
+    Client newClient(nom,prenom,ville,sexe,happybirhday);
+    tab[n]=newClient;
+    n++;
     cout<<"*****client ajouté*****"<<endl;
 }
-void ajout(Produit tab[],int *n){
-    cin.ignore();
+
+void ajout(Produit tab[],int &n){
     string nom;
     int id,prixUnitaire,quantite;
     cout<<"Veillez saisir les informations du produits a ajouter "<<endl;
@@ -73,32 +72,38 @@ void ajout(Produit tab[],int *n){
     cout<<"Quantite : ";
     cin>>quantite;
     Produit newProduit(id,nom,prixUnitaire,quantite);
-    (*n)++;
-    tab[(*n)-1]=newProduit;
+    tab[n]=newProduit;
+    n++;
     cout<<"*****produit ajouté*****"<<endl;
 }
-void ajout(Achat tab[],int *n){
-    cin.ignore();
+
+
+void ajout(Achat tabA[],int &na,Client tabC[],int nc,Produit tabP[],int np ){
     string date;
-    int id;
+    int idachat,idclient,idproduit;
     Client achetteur;
     Produit prodAcheter;
     cout<<"Veillez saisir les informations de l'achat a ajouter "<<endl;
     cout<<"id : ";
-    cin>>id;
+    cin>>idachat;
+    cout<<"entrez l'identifiant du client : ";
+    cin>>idclient;
+    cout<<"entrez l'identifiant du produit : ";
+    cin>>idproduit;
     cin.ignore();
-    //faire une methode de recherche client et produit
+    achetteur=searchItem(tabC, nc, idclient);
+    prodAcheter=searchItem(tabP, np, idproduit);
     cout<<"date : ";
     getline(cin,date);
-    Achat newAchat(id,achetteur,prodAcheter,date);
-    (*n)++;
-    tab[(*n)-1]=newAchat;
+    Achat newAchat(idachat,achetteur,prodAcheter,date);
+    tabA[na]=newAchat;
+    na++;
     cout<<"*****Achat ajoute*****"<<endl;
 }
 
 // modifier des donnees
 
-void modif(Client tab[],int &n){
+void modif(Client tab[],int n){
     int choix,id;
     bool x=true;
     cout<<"entrez le code du client a modifier : ";
@@ -111,11 +116,11 @@ void modif(Client tab[],int &n){
     cout<<"5 : pour la date de naissance "<<endl;
     cout<< "votre choix : ";
     cin>>choix;
-    cin.ignore();
     switch (choix) {
         case 1:
         {string AModifier;
             cout<<"entrez le nouveau nom du client : ";
+            cin.ignore();
             getline(cin,AModifier);
             for (int i=0; i<n; i++) {
                 if(tab[i].getCodeClient()==id){
@@ -132,6 +137,7 @@ void modif(Client tab[],int &n){
         case 2:
         {string AModifier;
             cout<<"entrez le nouveau prenom du client : ";
+            cin.ignore();
             getline(cin,AModifier);
             for (int i=0; i<n; i++) {
                 if(tab[i].getCodeClient()==id){
@@ -148,6 +154,7 @@ void modif(Client tab[],int &n){
         case 3:
         {string AModifier;
             cout<<"entrez la nouvelle ville du client : ";
+            cin.ignore();
             getline(cin,AModifier);
             for (int i=0; i<n; i++) {
                 if(tab[i].getCodeClient()==id){
@@ -164,6 +171,7 @@ void modif(Client tab[],int &n){
         case 4:
         {string AModifier;
             cout<<"entrez le nouveau sexe du client : ";
+            cin.ignore();
             getline(cin,AModifier);
             for (int i=0; i<n; i++) {
                 if(tab[i].getCodeClient()==id){
@@ -180,6 +188,7 @@ void modif(Client tab[],int &n){
         case 5:
         {string AModifier;
             cout<<"entrez la nouvelle date de naissance du client : ";
+            cin.ignore();
             getline(cin,AModifier);
             for (int i=0; i<n; i++) {
                 if(tab[i].getCodeClient()==id){
@@ -201,7 +210,7 @@ void modif(Client tab[],int &n){
     
 }
 
-void modif(Produit tab[],int &n){
+void modif(Produit tab[],int n){
     int choix,id;
     bool x=true;
     cout<<"entrez l'identifiant du produit a modifier : ";
@@ -219,6 +228,7 @@ void modif(Produit tab[],int &n){
         {int AModifier;
             cout<<"entrez le nouveau identifiant du produit : ";
             cin>>AModifier;
+            cin.ignore();
             for (int i=0; i<n; i++) {
                 if(tab[i].getIdProduit()==id){
                     tab[i].setIdProduit(AModifier);
@@ -234,6 +244,7 @@ void modif(Produit tab[],int &n){
         case 2:
         {string AModifier;
             cout<<"entrez le nouveau nom du produit : ";
+            cin.ignore();
             getline(cin,AModifier);
             for (int i=0; i<n; i++) {
                 if(tab[i].getIdProduit()==id){
@@ -251,6 +262,7 @@ void modif(Produit tab[],int &n){
         {int AModifier;
             cout<<"entrez le nouveau prix unitaire du produit : ";
             cin>>AModifier;
+            cin.ignore();
             for (int i=0; i<n; i++) {
                 if(tab[i].getIdProduit()==id){
                     tab[i].setprixUnitaire(AModifier);
@@ -267,6 +279,7 @@ void modif(Produit tab[],int &n){
         {int AModifier;
             cout<<"entrez le nouvelle quantite du produit : ";
             cin>>AModifier;
+            cin.ignore();
             for (int i=0; i<n; i++) {
                 if(tab[i].getIdProduit()==id){
                     tab[i].setquantite(AModifier);
@@ -286,7 +299,7 @@ void modif(Produit tab[],int &n){
     
 }
 
-void modif(Achat tabA[],int &na,Client tabC[],int &nc,Produit tabP[],int &np ){
+void modif(Achat tabA[],int na,Client tabC[],int nc,Produit tabP[],int np ){
     int choix,id;
     bool x=true;
     cout<<"entrez l'identifiant de l'achat a modifier : ";
@@ -304,6 +317,7 @@ void modif(Achat tabA[],int &na,Client tabC[],int &nc,Produit tabP[],int &np ){
         {int AModifier;
             cout<<"entrez le nouveau identifiant de l'achat : ";
             cin>>AModifier;
+            cin.ignore();
             for (int i=0; i<na; i++) {
                 if(tabA[i].getIdAchat()==id){
                     tabA[i].setIdAchat(AModifier);
@@ -322,6 +336,7 @@ void modif(Achat tabA[],int &na,Client tabC[],int &nc,Produit tabP[],int &np ){
             Client nouveau;
             cout<<"entrez l'identifiant de nouvelle achetteur de l'achat : ";
             cin>>AModifier;
+            cin.ignore();
             nouveau=searchItem(tabC, nc, AModifier);
             for (int i=0; i<na; i++) {
                 if(tabA[i].getIdAchat()==id){
@@ -340,6 +355,7 @@ void modif(Achat tabA[],int &na,Client tabC[],int &nc,Produit tabP[],int &np ){
             Produit nouveau;
             cout<<"entrez l'identifiant du nouveau produit achete : ";
             cin>>AModifier;
+            cin.ignore();
             nouveau=searchItem(tabP,np, AModifier);
             for (int i=0; i<na; i++) {
                 if(tabA[i].getIdAchat()==id){
@@ -356,6 +372,7 @@ void modif(Achat tabA[],int &na,Client tabC[],int &nc,Produit tabP[],int &np ){
         case 4:
         {string AModifier;
             cout<<"entrez la nouvelle date de l'achat : ";
+            cin.ignore();
             getline(cin,AModifier);
             for (int i=0; i<na; i++) {
                 if(tabA[i].getIdAchat()==id){
@@ -376,16 +393,15 @@ void modif(Achat tabA[],int &na,Client tabC[],int &nc,Produit tabP[],int &np ){
     
 }
 
-
 // suppression
 
-void supprimer(Client tab[],int *n){
+void supprimer(Client tab[],int &n){
     int Asupprimer,j=0;
-    Client newtab[*n];
+    Client newtab[n];
     bool x=false;
     cout<<"entrez le code du client a supprimer : ";
     cin>>Asupprimer;
-    for (int i=0; i<*n; i++) {
+    for (int i=0; i<n; i++) {
         if(tab[i].getCodeClient()!=Asupprimer){
             newtab[j]=tab[i];
             j++;
@@ -395,8 +411,8 @@ void supprimer(Client tab[],int *n){
         }
     }
     if(x){
-        (*n)--;
-        for (int i=0; i<*n; i++) {
+        n--;
+        for (int i=0; i<n; i++) {
             tab[i]=newtab[i];
         }
         cout<<"client supprimé "<<endl;
@@ -405,13 +421,13 @@ void supprimer(Client tab[],int *n){
     }
 }
 
-void supprimer(Produit tab[],int *n){
+void supprimer(Produit tab[],int &n){
     int Asupprimer,j=0;
-    Produit newtab[(*n)];
+    Produit newtab[n];
     bool x=false;
     cout<<"entrez le code du produit a supprimer : ";
     cin>>Asupprimer;
-    for (int i=0; i<(*n); i++) {
+    for (int i=0; i<n; i++) {
         if(tab[i].getIdProduit()!=Asupprimer){
             newtab[j]=tab[i];
             j++;
@@ -421,8 +437,8 @@ void supprimer(Produit tab[],int *n){
         }
     }
     if(x){
-        (*n)--;
-        for (int i=0; i<(*n); i++) {
+        n--;
+        for (int i=0; i<n; i++) {
             tab[i]=newtab[i];
         }
         cout<<"*****Produit supprimé***** "<<endl;
@@ -431,13 +447,13 @@ void supprimer(Produit tab[],int *n){
     }
 }
 
-void supprimer(Achat tab[],int *n){
+void supprimer(Achat tab[],int &n){
     int Asupprimer,j=0;
-    Achat newtab[(*n)];
+    Achat newtab[n];
     bool x=false;
     cout<<"entrez le code de l'achat a supprimer : ";
     cin>>Asupprimer;
-    for (int i=0; i<(*n); i++) {
+    for (int i=0; i<n; i++) {
         if(tab[i].getIdAchat()!=Asupprimer){
             newtab[j]=tab[i];
             j++;
@@ -447,8 +463,8 @@ void supprimer(Achat tab[],int *n){
         }
     }
     if(x){
-        (*n)--;
-        for (int i=0; i<(*n); i++) {
+        n--;
+        for (int i=0; i<n; i++) {
             tab[i]=newtab[i];
         }
         cout<<"*****Achat supprimé*****"<<endl;
