@@ -1,0 +1,2041 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>9</integer>
+	<key>logs</key>
+	<dict>
+		<key>0126B733-7F72-43E3-8773-41B00E25D492</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>0126B733-7F72-43E3-8773-41B00E25D492.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>Project2Kabissa project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Project2Kabissa</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Project2Kabissa</string>
+			<key>timeStartedRecording</key>
+			<real>570293305.74292397</real>
+			<key>timeStoppedRecording</key>
+			<real>570293305.92822695</real>
+			<key>title</key>
+			<string>Build Project2Kabissa</string>
+			<key>uniqueIdentifier</key>
+			<string>0126B733-7F72-43E3-8773-41B00E25D492</string>
+		</dict>
+		<key>05A2F948-7796-4AFF-A8AA-8BE7339C5BB2</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>05A2F948-7796-4AFF-A8AA-8BE7339C5BB2.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>Project2Kabissa project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Project2Kabissa</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Project2Kabissa</string>
+			<key>timeStartedRecording</key>
+			<real>570300735.47332096</real>
+			<key>timeStoppedRecording</key>
+			<real>570300745.411497</real>
+			<key>title</key>
+			<string>Build Project2Kabissa</string>
+			<key>uniqueIdentifier</key>
+			<string>05A2F948-7796-4AFF-A8AA-8BE7339C5BB2</string>
+		</dict>
+		<key>0C1FF86D-3C5C-4134-8EF9-E7E7F6E4B646</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>0C1FF86D-3C5C-4134-8EF9-E7E7F6E4B646.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>Project2Kabissa project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Project2Kabissa</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Project2Kabissa</string>
+			<key>timeStartedRecording</key>
+			<real>570293289.62086201</real>
+			<key>timeStoppedRecording</key>
+			<real>570293293.97135198</real>
+			<key>title</key>
+			<string>Build Project2Kabissa</string>
+			<key>uniqueIdentifier</key>
+			<string>0C1FF86D-3C5C-4134-8EF9-E7E7F6E4B646</string>
+		</dict>
+		<key>0CF9F5A2-7898-473C-9761-7ECFC61B1DC4</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>0CF9F5A2-7898-473C-9761-7ECFC61B1DC4.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>Project2Kabissa project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Project2Kabissa</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Project2Kabissa</string>
+			<key>timeStartedRecording</key>
+			<real>570283040.90735698</real>
+			<key>timeStoppedRecording</key>
+			<real>570283053.53740394</real>
+			<key>title</key>
+			<string>Build Project2Kabissa</string>
+			<key>uniqueIdentifier</key>
+			<string>0CF9F5A2-7898-473C-9761-7ECFC61B1DC4</string>
+		</dict>
+		<key>0DED6DF5-70E1-42CD-B962-AFB3C1F53541</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>0DED6DF5-70E1-42CD-B962-AFB3C1F53541.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>Project2Kabissa project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Project2Kabissa</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Project2Kabissa</string>
+			<key>timeStartedRecording</key>
+			<real>570294636.10771203</real>
+			<key>timeStoppedRecording</key>
+			<real>570294636.27583802</real>
+			<key>title</key>
+			<string>Build Project2Kabissa</string>
+			<key>uniqueIdentifier</key>
+			<string>0DED6DF5-70E1-42CD-B962-AFB3C1F53541</string>
+		</dict>
+		<key>0F838276-30C4-49BB-B7CB-53B8D6AA09A7</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>0F838276-30C4-49BB-B7CB-53B8D6AA09A7.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>Project2Kabissa project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Project2Kabissa</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Project2Kabissa</string>
+			<key>timeStartedRecording</key>
+			<real>570295970.55361998</real>
+			<key>timeStoppedRecording</key>
+			<real>570295971.97864103</real>
+			<key>title</key>
+			<string>Build Project2Kabissa</string>
+			<key>uniqueIdentifier</key>
+			<string>0F838276-30C4-49BB-B7CB-53B8D6AA09A7</string>
+		</dict>
+		<key>1E897FA3-F894-4EFD-B1AD-2C0956F2C574</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>1E897FA3-F894-4EFD-B1AD-2C0956F2C574.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>E</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>Project2Kabissa project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Project2Kabissa</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Project2Kabissa</string>
+			<key>timeStartedRecording</key>
+			<real>570295244.04860497</real>
+			<key>timeStoppedRecording</key>
+			<real>570295246.13077796</real>
+			<key>title</key>
+			<string>Build Project2Kabissa</string>
+			<key>uniqueIdentifier</key>
+			<string>1E897FA3-F894-4EFD-B1AD-2C0956F2C574</string>
+		</dict>
+		<key>1FFEDE0C-B634-4E1A-9DC4-9298FF832CBC</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>1FFEDE0C-B634-4E1A-9DC4-9298FF832CBC.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>Project2Kabissa project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Project2Kabissa</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Project2Kabissa</string>
+			<key>timeStartedRecording</key>
+			<real>570300041.91633105</real>
+			<key>timeStoppedRecording</key>
+			<real>570300047.89395201</real>
+			<key>title</key>
+			<string>Build Project2Kabissa</string>
+			<key>uniqueIdentifier</key>
+			<string>1FFEDE0C-B634-4E1A-9DC4-9298FF832CBC</string>
+		</dict>
+		<key>2116598D-F05F-413D-9DBD-D086D63E4754</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>2116598D-F05F-413D-9DBD-D086D63E4754.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>Project2Kabissa project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Project2Kabissa</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Project2Kabissa</string>
+			<key>timeStartedRecording</key>
+			<real>570284608.22112501</real>
+			<key>timeStoppedRecording</key>
+			<real>570284610.74523103</real>
+			<key>title</key>
+			<string>Build Project2Kabissa</string>
+			<key>uniqueIdentifier</key>
+			<string>2116598D-F05F-413D-9DBD-D086D63E4754</string>
+		</dict>
+		<key>26563052-DE0C-4C00-825D-B5AC91FFA5A3</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>26563052-DE0C-4C00-825D-B5AC91FFA5A3.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>Project2Kabissa project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Project2Kabissa</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Project2Kabissa</string>
+			<key>timeStartedRecording</key>
+			<real>570268029.39650404</real>
+			<key>timeStoppedRecording</key>
+			<real>570268030.67633903</real>
+			<key>title</key>
+			<string>Build Project2Kabissa</string>
+			<key>uniqueIdentifier</key>
+			<string>26563052-DE0C-4C00-825D-B5AC91FFA5A3</string>
+		</dict>
+		<key>27586F34-4BD7-406F-B37E-484239C4FB4E</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>27586F34-4BD7-406F-B37E-484239C4FB4E.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>Project2Kabissa project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Project2Kabissa</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Project2Kabissa</string>
+			<key>timeStartedRecording</key>
+			<real>570284278.93003595</real>
+			<key>timeStoppedRecording</key>
+			<real>570284280.89554501</real>
+			<key>title</key>
+			<string>Build Project2Kabissa</string>
+			<key>uniqueIdentifier</key>
+			<string>27586F34-4BD7-406F-B37E-484239C4FB4E</string>
+		</dict>
+		<key>464550C0-45B9-409F-B045-053A49732CF7</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>464550C0-45B9-409F-B045-053A49732CF7.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>Project2Kabissa project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Project2Kabissa</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Project2Kabissa</string>
+			<key>timeStartedRecording</key>
+			<real>570299837.54500997</real>
+			<key>timeStoppedRecording</key>
+			<real>570299845.81561697</real>
+			<key>title</key>
+			<string>Build Project2Kabissa</string>
+			<key>uniqueIdentifier</key>
+			<string>464550C0-45B9-409F-B045-053A49732CF7</string>
+		</dict>
+		<key>4670305D-8056-407C-9AC5-7F3F53BE1F27</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>4670305D-8056-407C-9AC5-7F3F53BE1F27.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>Project2Kabissa project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Project2Kabissa</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Project2Kabissa</string>
+			<key>timeStartedRecording</key>
+			<real>570300834.21819794</real>
+			<key>timeStoppedRecording</key>
+			<real>570300837.37598598</real>
+			<key>title</key>
+			<string>Build Project2Kabissa</string>
+			<key>uniqueIdentifier</key>
+			<string>4670305D-8056-407C-9AC5-7F3F53BE1F27</string>
+		</dict>
+		<key>4AAE2109-EA2D-4D24-AAF9-76BB51A887BE</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>4AAE2109-EA2D-4D24-AAF9-76BB51A887BE.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>Project2Kabissa project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Project2Kabissa</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Project2Kabissa</string>
+			<key>timeStartedRecording</key>
+			<real>570282881.84765399</real>
+			<key>timeStoppedRecording</key>
+			<real>570282882.05768204</real>
+			<key>title</key>
+			<string>Build Project2Kabissa</string>
+			<key>uniqueIdentifier</key>
+			<string>4AAE2109-EA2D-4D24-AAF9-76BB51A887BE</string>
+		</dict>
+		<key>4B4CD0F4-4B4C-4C2D-B8D1-82F9195BF23D</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>4B4CD0F4-4B4C-4C2D-B8D1-82F9195BF23D.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>Project2Kabissa project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Project2Kabissa</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Project2Kabissa</string>
+			<key>timeStartedRecording</key>
+			<real>570284636.661358</real>
+			<key>timeStoppedRecording</key>
+			<real>570284638.61942995</real>
+			<key>title</key>
+			<string>Build Project2Kabissa</string>
+			<key>uniqueIdentifier</key>
+			<string>4B4CD0F4-4B4C-4C2D-B8D1-82F9195BF23D</string>
+		</dict>
+		<key>4E5B4E52-D9B8-407E-A807-8A15165340A4</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>4E5B4E52-D9B8-407E-A807-8A15165340A4.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>Project2Kabissa project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Project2Kabissa</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Project2Kabissa</string>
+			<key>timeStartedRecording</key>
+			<real>570283804.951208</real>
+			<key>timeStoppedRecording</key>
+			<real>570283811.30461502</real>
+			<key>title</key>
+			<string>Build Project2Kabissa</string>
+			<key>uniqueIdentifier</key>
+			<string>4E5B4E52-D9B8-407E-A807-8A15165340A4</string>
+		</dict>
+		<key>5300335B-9213-4258-92DF-79320ABE0A92</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>5300335B-9213-4258-92DF-79320ABE0A92.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>Project2Kabissa project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Project2Kabissa</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Project2Kabissa</string>
+			<key>timeStartedRecording</key>
+			<real>570300331.42564404</real>
+			<key>timeStoppedRecording</key>
+			<real>570300331.48371303</real>
+			<key>title</key>
+			<string>Build Project2Kabissa</string>
+			<key>uniqueIdentifier</key>
+			<string>5300335B-9213-4258-92DF-79320ABE0A92</string>
+		</dict>
+		<key>5567F87C-314D-4462-90F6-18EA77D1C9D2</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>5567F87C-314D-4462-90F6-18EA77D1C9D2.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>Project2Kabissa project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Project2Kabissa</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Project2Kabissa</string>
+			<key>timeStartedRecording</key>
+			<real>570295778.86324</real>
+			<key>timeStoppedRecording</key>
+			<real>570295780.85725105</real>
+			<key>title</key>
+			<string>Build Project2Kabissa</string>
+			<key>uniqueIdentifier</key>
+			<string>5567F87C-314D-4462-90F6-18EA77D1C9D2</string>
+		</dict>
+		<key>5574D89A-DF92-4534-88A0-0E9FDC7D7757</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>5574D89A-DF92-4534-88A0-0E9FDC7D7757.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>Project2Kabissa project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Project2Kabissa</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Project2Kabissa</string>
+			<key>timeStartedRecording</key>
+			<real>570302293.41077805</real>
+			<key>timeStoppedRecording</key>
+			<real>570302300.14869404</real>
+			<key>title</key>
+			<string>Build Project2Kabissa</string>
+			<key>uniqueIdentifier</key>
+			<string>5574D89A-DF92-4534-88A0-0E9FDC7D7757</string>
+		</dict>
+		<key>55B08D0A-6D25-4FCE-8A9C-F8BBAEB792D7</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>55B08D0A-6D25-4FCE-8A9C-F8BBAEB792D7.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>Project2Kabissa project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Project2Kabissa</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Project2Kabissa</string>
+			<key>timeStartedRecording</key>
+			<real>570302001.13679397</real>
+			<key>timeStoppedRecording</key>
+			<real>570302002.10610604</real>
+			<key>title</key>
+			<string>Build Project2Kabissa</string>
+			<key>uniqueIdentifier</key>
+			<string>55B08D0A-6D25-4FCE-8A9C-F8BBAEB792D7</string>
+		</dict>
+		<key>5936A8EE-0A81-499C-A353-83701572EEF1</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>5936A8EE-0A81-499C-A353-83701572EEF1.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>Project2Kabissa project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Project2Kabissa</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Project2Kabissa</string>
+			<key>timeStartedRecording</key>
+			<real>570300840.96454406</real>
+			<key>timeStoppedRecording</key>
+			<real>570300841.07203603</real>
+			<key>title</key>
+			<string>Build Project2Kabissa</string>
+			<key>uniqueIdentifier</key>
+			<string>5936A8EE-0A81-499C-A353-83701572EEF1</string>
+		</dict>
+		<key>59DDDCD8-8266-48EB-A6D6-E8FA5BF1C98E</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>59DDDCD8-8266-48EB-A6D6-E8FA5BF1C98E.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>Project2Kabissa project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Project2Kabissa</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Project2Kabissa</string>
+			<key>timeStartedRecording</key>
+			<real>570301968.62925804</real>
+			<key>timeStoppedRecording</key>
+			<real>570301979.32048798</real>
+			<key>title</key>
+			<string>Build Project2Kabissa</string>
+			<key>uniqueIdentifier</key>
+			<string>59DDDCD8-8266-48EB-A6D6-E8FA5BF1C98E</string>
+		</dict>
+		<key>5D98CE28-EEDA-4109-A7E8-E1DC14E40F9C</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>5D98CE28-EEDA-4109-A7E8-E1DC14E40F9C.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>Project2Kabissa project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Project2Kabissa</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Project2Kabissa</string>
+			<key>timeStartedRecording</key>
+			<real>570300335.78050697</real>
+			<key>timeStoppedRecording</key>
+			<real>570300336.34731305</real>
+			<key>title</key>
+			<string>Build Project2Kabissa</string>
+			<key>uniqueIdentifier</key>
+			<string>5D98CE28-EEDA-4109-A7E8-E1DC14E40F9C</string>
+		</dict>
+		<key>5EB1B05B-C739-4FC3-BB01-4FCE395E4D0F</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>5EB1B05B-C739-4FC3-BB01-4FCE395E4D0F.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>Project2Kabissa project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Project2Kabissa</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Project2Kabissa</string>
+			<key>timeStartedRecording</key>
+			<real>570295619.56854296</real>
+			<key>timeStoppedRecording</key>
+			<real>570295619.75304902</real>
+			<key>title</key>
+			<string>Build Project2Kabissa</string>
+			<key>uniqueIdentifier</key>
+			<string>5EB1B05B-C739-4FC3-BB01-4FCE395E4D0F</string>
+		</dict>
+		<key>608783F2-C3A7-454A-AF38-878967823944</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>608783F2-C3A7-454A-AF38-878967823944.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>Project2Kabissa project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Project2Kabissa</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Project2Kabissa</string>
+			<key>timeStartedRecording</key>
+			<real>570284095.35084498</real>
+			<key>timeStoppedRecording</key>
+			<real>570284098.32438302</real>
+			<key>title</key>
+			<string>Build Project2Kabissa</string>
+			<key>uniqueIdentifier</key>
+			<string>608783F2-C3A7-454A-AF38-878967823944</string>
+		</dict>
+		<key>61F72F08-1A30-40CA-9178-DB33DD86E841</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>61F72F08-1A30-40CA-9178-DB33DD86E841.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>Project2Kabissa project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Project2Kabissa</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Project2Kabissa</string>
+			<key>timeStartedRecording</key>
+			<real>570284853.35974598</real>
+			<key>timeStoppedRecording</key>
+			<real>570284853.43947697</real>
+			<key>title</key>
+			<string>Build Project2Kabissa</string>
+			<key>uniqueIdentifier</key>
+			<string>61F72F08-1A30-40CA-9178-DB33DD86E841</string>
+		</dict>
+		<key>6808FED2-9AA5-4B65-AF1C-F912474DE75B</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>6808FED2-9AA5-4B65-AF1C-F912474DE75B.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>Project2Kabissa project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Project2Kabissa</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Project2Kabissa</string>
+			<key>timeStartedRecording</key>
+			<real>570292067.78046</real>
+			<key>timeStoppedRecording</key>
+			<real>570292069.93853998</real>
+			<key>title</key>
+			<string>Build Project2Kabissa</string>
+			<key>uniqueIdentifier</key>
+			<string>6808FED2-9AA5-4B65-AF1C-F912474DE75B</string>
+		</dict>
+		<key>6A1D7371-14B6-4D05-A1E7-70742E064D18</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>6A1D7371-14B6-4D05-A1E7-70742E064D18.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>Project2Kabissa project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Project2Kabissa</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Project2Kabissa</string>
+			<key>timeStartedRecording</key>
+			<real>570292075.73253095</real>
+			<key>timeStoppedRecording</key>
+			<real>570292075.83851695</real>
+			<key>title</key>
+			<string>Build Project2Kabissa</string>
+			<key>uniqueIdentifier</key>
+			<string>6A1D7371-14B6-4D05-A1E7-70742E064D18</string>
+		</dict>
+		<key>7052B453-29F0-45E4-A890-325F8E345A3D</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>7052B453-29F0-45E4-A890-325F8E345A3D.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>Project2Kabissa project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Project2Kabissa</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Project2Kabissa</string>
+			<key>timeStartedRecording</key>
+			<real>570290354.67769098</real>
+			<key>timeStoppedRecording</key>
+			<real>570290354.84124899</real>
+			<key>title</key>
+			<string>Build Project2Kabissa</string>
+			<key>uniqueIdentifier</key>
+			<string>7052B453-29F0-45E4-A890-325F8E345A3D</string>
+		</dict>
+		<key>70553362-1A30-46C0-8E3B-5AEA4F8E61C6</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>70553362-1A30-46C0-8E3B-5AEA4F8E61C6.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>Project2Kabissa project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Project2Kabissa</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Project2Kabissa</string>
+			<key>timeStartedRecording</key>
+			<real>570294453.42894697</real>
+			<key>timeStoppedRecording</key>
+			<real>570294458.50514495</real>
+			<key>title</key>
+			<string>Build Project2Kabissa</string>
+			<key>uniqueIdentifier</key>
+			<string>70553362-1A30-46C0-8E3B-5AEA4F8E61C6</string>
+		</dict>
+		<key>7172A11B-3F28-42D8-8A93-DB1B18CA0D32</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>7172A11B-3F28-42D8-8A93-DB1B18CA0D32.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>Project2Kabissa project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Project2Kabissa</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Project2Kabissa</string>
+			<key>timeStartedRecording</key>
+			<real>570295745.07987297</real>
+			<key>timeStoppedRecording</key>
+			<real>570295745.36062503</real>
+			<key>title</key>
+			<string>Build Project2Kabissa</string>
+			<key>uniqueIdentifier</key>
+			<string>7172A11B-3F28-42D8-8A93-DB1B18CA0D32</string>
+		</dict>
+		<key>72272727-37D5-45FE-8A82-0D813DACA399</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>72272727-37D5-45FE-8A82-0D813DACA399.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>Project2Kabissa project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Project2Kabissa</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Project2Kabissa</string>
+			<key>timeStartedRecording</key>
+			<real>570300291.68709302</real>
+			<key>timeStoppedRecording</key>
+			<real>570300294.84397399</real>
+			<key>title</key>
+			<string>Build Project2Kabissa</string>
+			<key>uniqueIdentifier</key>
+			<string>72272727-37D5-45FE-8A82-0D813DACA399</string>
+		</dict>
+		<key>743B0759-0A1B-4648-8E62-C755BFB582FE</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>743B0759-0A1B-4648-8E62-C755BFB582FE.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>Project2Kabissa project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Project2Kabissa</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Project2Kabissa</string>
+			<key>timeStartedRecording</key>
+			<real>570295501.05752599</real>
+			<key>timeStoppedRecording</key>
+			<real>570295501.24085104</real>
+			<key>title</key>
+			<string>Build Project2Kabissa</string>
+			<key>uniqueIdentifier</key>
+			<string>743B0759-0A1B-4648-8E62-C755BFB582FE</string>
+		</dict>
+		<key>790DC357-76E2-46F3-8D94-C72E1C7DA367</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>790DC357-76E2-46F3-8D94-C72E1C7DA367.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>Project2Kabissa project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Project2Kabissa</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Project2Kabissa</string>
+			<key>timeStartedRecording</key>
+			<real>570281876.35856295</real>
+			<key>timeStoppedRecording</key>
+			<real>570281882.370188</real>
+			<key>title</key>
+			<string>Build Project2Kabissa</string>
+			<key>uniqueIdentifier</key>
+			<string>790DC357-76E2-46F3-8D94-C72E1C7DA367</string>
+		</dict>
+		<key>7D982A92-51E8-4FD0-949F-C656BF60160F</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>7D982A92-51E8-4FD0-949F-C656BF60160F.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>Project2Kabissa project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Project2Kabissa</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Project2Kabissa</string>
+			<key>timeStartedRecording</key>
+			<real>570292280.38260996</real>
+			<key>timeStoppedRecording</key>
+			<real>570292280.61131096</real>
+			<key>title</key>
+			<string>Build Project2Kabissa</string>
+			<key>uniqueIdentifier</key>
+			<string>7D982A92-51E8-4FD0-949F-C656BF60160F</string>
+		</dict>
+		<key>7E10F79F-E175-438B-9192-F9D86D28D2F5</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>7E10F79F-E175-438B-9192-F9D86D28D2F5.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>Project2Kabissa project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Project2Kabissa</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Project2Kabissa</string>
+			<key>timeStartedRecording</key>
+			<real>570292269.68624699</real>
+			<key>timeStoppedRecording</key>
+			<real>570292272.71433699</real>
+			<key>title</key>
+			<string>Build Project2Kabissa</string>
+			<key>uniqueIdentifier</key>
+			<string>7E10F79F-E175-438B-9192-F9D86D28D2F5</string>
+		</dict>
+		<key>822DA948-C497-4DFD-B4BA-6B37E426329D</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>822DA948-C497-4DFD-B4BA-6B37E426329D.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>Project2Kabissa project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Project2Kabissa</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Project2Kabissa</string>
+			<key>timeStartedRecording</key>
+			<real>570300749.78026795</real>
+			<key>timeStoppedRecording</key>
+			<real>570300750.25738096</real>
+			<key>title</key>
+			<string>Build Project2Kabissa</string>
+			<key>uniqueIdentifier</key>
+			<string>822DA948-C497-4DFD-B4BA-6B37E426329D</string>
+		</dict>
+		<key>83891963-8727-4C63-8EFD-CD2E0429276E</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>83891963-8727-4C63-8EFD-CD2E0429276E.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>Project2Kabissa project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Project2Kabissa</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Project2Kabissa</string>
+			<key>timeStartedRecording</key>
+			<real>570296331.49149597</real>
+			<key>timeStoppedRecording</key>
+			<real>570296333.34154403</real>
+			<key>title</key>
+			<string>Build Project2Kabissa</string>
+			<key>uniqueIdentifier</key>
+			<string>83891963-8727-4C63-8EFD-CD2E0429276E</string>
+		</dict>
+		<key>88C48958-8B2C-4192-8F74-561EC2D3218B</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>88C48958-8B2C-4192-8F74-561EC2D3218B.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>Project2Kabissa project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Project2Kabissa</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Project2Kabissa</string>
+			<key>timeStartedRecording</key>
+			<real>570288961.34428203</real>
+			<key>timeStoppedRecording</key>
+			<real>570288962.04668403</real>
+			<key>title</key>
+			<string>Build Project2Kabissa</string>
+			<key>uniqueIdentifier</key>
+			<string>88C48958-8B2C-4192-8F74-561EC2D3218B</string>
+		</dict>
+		<key>8A0E6364-EDCB-478E-A7EC-703A2AF24FD7</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>8A0E6364-EDCB-478E-A7EC-703A2AF24FD7.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>Project2Kabissa project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Project2Kabissa</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Project2Kabissa</string>
+			<key>timeStartedRecording</key>
+			<real>570300069.86411595</real>
+			<key>timeStoppedRecording</key>
+			<real>570300070.42648101</real>
+			<key>title</key>
+			<string>Build Project2Kabissa</string>
+			<key>uniqueIdentifier</key>
+			<string>8A0E6364-EDCB-478E-A7EC-703A2AF24FD7</string>
+		</dict>
+		<key>8BC60058-D7CC-45E1-A4DC-FB2DC2CB6B20</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>8BC60058-D7CC-45E1-A4DC-FB2DC2CB6B20.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>Project2Kabissa project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Project2Kabissa</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Project2Kabissa</string>
+			<key>timeStartedRecording</key>
+			<real>570280576.65171301</real>
+			<key>timeStoppedRecording</key>
+			<real>570280591.47971702</real>
+			<key>title</key>
+			<string>Build Project2Kabissa</string>
+			<key>uniqueIdentifier</key>
+			<string>8BC60058-D7CC-45E1-A4DC-FB2DC2CB6B20</string>
+		</dict>
+		<key>9040DD24-C888-4BB5-9E51-E3D89FCE64B4</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>9040DD24-C888-4BB5-9E51-E3D89FCE64B4.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>Project2Kabissa project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Project2Kabissa</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Project2Kabissa</string>
+			<key>timeStartedRecording</key>
+			<real>570300064.79637301</real>
+			<key>timeStoppedRecording</key>
+			<real>570300064.95368803</real>
+			<key>title</key>
+			<string>Build Project2Kabissa</string>
+			<key>uniqueIdentifier</key>
+			<string>9040DD24-C888-4BB5-9E51-E3D89FCE64B4</string>
+		</dict>
+		<key>9AF42B69-B639-4A63-8A81-9F3841B96A18</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>9AF42B69-B639-4A63-8A81-9F3841B96A18.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>Project2Kabissa project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Project2Kabissa</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Project2Kabissa</string>
+			<key>timeStartedRecording</key>
+			<real>570294628.662292</real>
+			<key>timeStoppedRecording</key>
+			<real>570294631.114573</real>
+			<key>title</key>
+			<string>Build Project2Kabissa</string>
+			<key>uniqueIdentifier</key>
+			<string>9AF42B69-B639-4A63-8A81-9F3841B96A18</string>
+		</dict>
+		<key>9C273D52-547B-4599-A184-EC8E6A18699C</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>9C273D52-547B-4599-A184-EC8E6A18699C.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>Project2Kabissa project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Project2Kabissa</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Project2Kabissa</string>
+			<key>timeStartedRecording</key>
+			<real>570295587.31882799</real>
+			<key>timeStoppedRecording</key>
+			<real>570295588.72095299</real>
+			<key>title</key>
+			<string>Build Project2Kabissa</string>
+			<key>uniqueIdentifier</key>
+			<string>9C273D52-547B-4599-A184-EC8E6A18699C</string>
+		</dict>
+		<key>9D914555-953F-4BE4-B1AF-C7F129A0438B</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>9D914555-953F-4BE4-B1AF-C7F129A0438B.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>Project2Kabissa project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Project2Kabissa</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Project2Kabissa</string>
+			<key>timeStartedRecording</key>
+			<real>570284844.39254403</real>
+			<key>timeStoppedRecording</key>
+			<real>570284846.91534495</real>
+			<key>title</key>
+			<string>Build Project2Kabissa</string>
+			<key>uniqueIdentifier</key>
+			<string>9D914555-953F-4BE4-B1AF-C7F129A0438B</string>
+		</dict>
+		<key>9DACC88D-4924-4B93-86CE-5E5E6F0501AF</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>9DACC88D-4924-4B93-86CE-5E5E6F0501AF.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>Project2Kabissa project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Project2Kabissa</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Project2Kabissa</string>
+			<key>timeStartedRecording</key>
+			<real>570291219.10171294</real>
+			<key>timeStoppedRecording</key>
+			<real>570291220.75751805</real>
+			<key>title</key>
+			<string>Build Project2Kabissa</string>
+			<key>uniqueIdentifier</key>
+			<string>9DACC88D-4924-4B93-86CE-5E5E6F0501AF</string>
+		</dict>
+		<key>9DC836C9-AE1C-482F-A591-72BDEF70A97F</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>9DC836C9-AE1C-482F-A591-72BDEF70A97F.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>Project2Kabissa project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Project2Kabissa</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Project2Kabissa</string>
+			<key>timeStartedRecording</key>
+			<real>570290345.77566004</real>
+			<key>timeStoppedRecording</key>
+			<real>570290350.17967296</real>
+			<key>title</key>
+			<string>Build Project2Kabissa</string>
+			<key>uniqueIdentifier</key>
+			<string>9DC836C9-AE1C-482F-A591-72BDEF70A97F</string>
+		</dict>
+		<key>A56DC80A-6381-4752-B9AB-5A5AED5E8917</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>A56DC80A-6381-4752-B9AB-5A5AED5E8917.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>Project2Kabissa project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Project2Kabissa</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Project2Kabissa</string>
+			<key>timeStartedRecording</key>
+			<real>570295492.46511698</real>
+			<key>timeStoppedRecording</key>
+			<real>570295495.73807204</real>
+			<key>title</key>
+			<string>Build Project2Kabissa</string>
+			<key>uniqueIdentifier</key>
+			<string>A56DC80A-6381-4752-B9AB-5A5AED5E8917</string>
+		</dict>
+		<key>B5566444-D6BC-43A2-A985-9D9A8FBBACA5</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>B5566444-D6BC-43A2-A985-9D9A8FBBACA5.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>Project2Kabissa project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Project2Kabissa</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Project2Kabissa</string>
+			<key>timeStartedRecording</key>
+			<real>570291040.08926797</real>
+			<key>timeStoppedRecording</key>
+			<real>570291043.36325097</real>
+			<key>title</key>
+			<string>Build Project2Kabissa</string>
+			<key>uniqueIdentifier</key>
+			<string>B5566444-D6BC-43A2-A985-9D9A8FBBACA5</string>
+		</dict>
+		<key>B96F2D09-8B71-4CFB-8E01-8317397F0248</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>B96F2D09-8B71-4CFB-8E01-8317397F0248.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>Project2Kabissa project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Project2Kabissa</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Project2Kabissa</string>
+			<key>timeStartedRecording</key>
+			<real>570291048.78327405</real>
+			<key>timeStoppedRecording</key>
+			<real>570291048.98267305</real>
+			<key>title</key>
+			<string>Build Project2Kabissa</string>
+			<key>uniqueIdentifier</key>
+			<string>B96F2D09-8B71-4CFB-8E01-8317397F0248</string>
+		</dict>
+		<key>BA7D8813-E889-42C3-9415-79121E107FAD</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>BA7D8813-E889-42C3-9415-79121E107FAD.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>Project2Kabissa project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Project2Kabissa</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Project2Kabissa</string>
+			<key>timeStartedRecording</key>
+			<real>570291158.75662994</real>
+			<key>timeStoppedRecording</key>
+			<real>570291158.924384</real>
+			<key>title</key>
+			<string>Build Project2Kabissa</string>
+			<key>uniqueIdentifier</key>
+			<string>BA7D8813-E889-42C3-9415-79121E107FAD</string>
+		</dict>
+		<key>BCC74BEA-8108-4B3B-A1D3-952A6DD465B3</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>BCC74BEA-8108-4B3B-A1D3-952A6DD465B3.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>Project2Kabissa project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Project2Kabissa</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Project2Kabissa</string>
+			<key>timeStartedRecording</key>
+			<real>570289060.53072405</real>
+			<key>timeStoppedRecording</key>
+			<real>570289063.67875695</real>
+			<key>title</key>
+			<string>Build Project2Kabissa</string>
+			<key>uniqueIdentifier</key>
+			<string>BCC74BEA-8108-4B3B-A1D3-952A6DD465B3</string>
+		</dict>
+		<key>CB3F6DEB-1AF6-400D-A6F2-BE72E6FDDA2B</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>CB3F6DEB-1AF6-400D-A6F2-BE72E6FDDA2B.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>Project2Kabissa project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Project2Kabissa</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Project2Kabissa</string>
+			<key>timeStartedRecording</key>
+			<real>570295785.21461201</real>
+			<key>timeStoppedRecording</key>
+			<real>570295785.41314197</real>
+			<key>title</key>
+			<string>Build Project2Kabissa</string>
+			<key>uniqueIdentifier</key>
+			<string>CB3F6DEB-1AF6-400D-A6F2-BE72E6FDDA2B</string>
+		</dict>
+		<key>D0376C45-A7BE-4EFC-A1D8-297F6CD9077A</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>D0376C45-A7BE-4EFC-A1D8-297F6CD9077A.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>Project2Kabissa project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Project2Kabissa</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Project2Kabissa</string>
+			<key>timeStartedRecording</key>
+			<real>570302716.54331303</real>
+			<key>timeStoppedRecording</key>
+			<real>570302716.91046202</real>
+			<key>title</key>
+			<string>Build Project2Kabissa</string>
+			<key>uniqueIdentifier</key>
+			<string>D0376C45-A7BE-4EFC-A1D8-297F6CD9077A</string>
+		</dict>
+		<key>D29E559A-8A99-4330-BA20-B40221691B09</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>D29E559A-8A99-4330-BA20-B40221691B09.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>Project2Kabissa project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Project2Kabissa</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Project2Kabissa</string>
+			<key>timeStartedRecording</key>
+			<real>570291151.00855398</real>
+			<key>timeStoppedRecording</key>
+			<real>570291153.38887</real>
+			<key>title</key>
+			<string>Build Project2Kabissa</string>
+			<key>uniqueIdentifier</key>
+			<string>D29E559A-8A99-4330-BA20-B40221691B09</string>
+		</dict>
+		<key>D8BAC96F-A1D8-4B40-A1A7-FCCA80EE7BD3</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>D8BAC96F-A1D8-4B40-A1A7-FCCA80EE7BD3.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>Project2Kabissa project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Project2Kabissa</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Project2Kabissa</string>
+			<key>timeStartedRecording</key>
+			<real>570295738.00367296</real>
+			<key>timeStoppedRecording</key>
+			<real>570295739.67240298</real>
+			<key>title</key>
+			<string>Build Project2Kabissa</string>
+			<key>uniqueIdentifier</key>
+			<string>D8BAC96F-A1D8-4B40-A1A7-FCCA80EE7BD3</string>
+		</dict>
+		<key>DA98D241-DE90-4C16-8417-5C1ABC6996D3</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>DA98D241-DE90-4C16-8417-5C1ABC6996D3.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>Project2Kabissa project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Project2Kabissa</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Project2Kabissa</string>
+			<key>timeStartedRecording</key>
+			<real>570296338.79275703</real>
+			<key>timeStoppedRecording</key>
+			<real>570296338.95361197</real>
+			<key>title</key>
+			<string>Build Project2Kabissa</string>
+			<key>uniqueIdentifier</key>
+			<string>DA98D241-DE90-4C16-8417-5C1ABC6996D3</string>
+		</dict>
+		<key>DB5B4874-B36B-478D-BA70-B80A448AFDCC</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>DB5B4874-B36B-478D-BA70-B80A448AFDCC.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>Project2Kabissa project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Project2Kabissa</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Project2Kabissa</string>
+			<key>timeStartedRecording</key>
+			<real>570294464.16553903</real>
+			<key>timeStoppedRecording</key>
+			<real>570294464.24669802</real>
+			<key>title</key>
+			<string>Build Project2Kabissa</string>
+			<key>uniqueIdentifier</key>
+			<string>DB5B4874-B36B-478D-BA70-B80A448AFDCC</string>
+		</dict>
+		<key>DEF833C1-41E9-4BE3-A6EE-914D65E2E0A0</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>DEF833C1-41E9-4BE3-A6EE-914D65E2E0A0.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>Project2Kabissa project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Project2Kabissa</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Project2Kabissa</string>
+			<key>timeStartedRecording</key>
+			<real>570289066.886783</real>
+			<key>timeStoppedRecording</key>
+			<real>570289067.08619404</real>
+			<key>title</key>
+			<string>Build Project2Kabissa</string>
+			<key>uniqueIdentifier</key>
+			<string>DEF833C1-41E9-4BE3-A6EE-914D65E2E0A0</string>
+		</dict>
+		<key>E1C9EA1E-AF15-4044-938E-AE87403F3934</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>E1C9EA1E-AF15-4044-938E-AE87403F3934.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>Project2Kabissa project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Project2Kabissa</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Project2Kabissa</string>
+			<key>timeStartedRecording</key>
+			<real>570281628.56260502</real>
+			<key>timeStoppedRecording</key>
+			<real>570281630.37522304</real>
+			<key>title</key>
+			<string>Build Project2Kabissa</string>
+			<key>uniqueIdentifier</key>
+			<string>E1C9EA1E-AF15-4044-938E-AE87403F3934</string>
+		</dict>
+		<key>E3EB397B-57FE-4531-8722-534B3C00E1E6</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>E3EB397B-57FE-4531-8722-534B3C00E1E6.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>Project2Kabissa project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Project2Kabissa</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Project2Kabissa</string>
+			<key>timeStartedRecording</key>
+			<real>570295608.72300005</real>
+			<key>timeStoppedRecording</key>
+			<real>570295611.89996195</real>
+			<key>title</key>
+			<string>Build Project2Kabissa</string>
+			<key>uniqueIdentifier</key>
+			<string>E3EB397B-57FE-4531-8722-534B3C00E1E6</string>
+		</dict>
+		<key>E768674A-34AC-48EF-9CE3-1DDC56EC27D2</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>E768674A-34AC-48EF-9CE3-1DDC56EC27D2.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>Project2Kabissa project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Project2Kabissa</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Project2Kabissa</string>
+			<key>timeStartedRecording</key>
+			<real>570284016.27263105</real>
+			<key>timeStoppedRecording</key>
+			<real>570284018.61993396</real>
+			<key>title</key>
+			<string>Build Project2Kabissa</string>
+			<key>uniqueIdentifier</key>
+			<string>E768674A-34AC-48EF-9CE3-1DDC56EC27D2</string>
+		</dict>
+		<key>E9F22B4A-0D71-4F9A-B6F4-0244E7D10557</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>E9F22B4A-0D71-4F9A-B6F4-0244E7D10557.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>Project2Kabissa project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Project2Kabissa</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Project2Kabissa</string>
+			<key>timeStartedRecording</key>
+			<real>570282750.62834096</real>
+			<key>timeStoppedRecording</key>
+			<real>570282751.38270295</real>
+			<key>title</key>
+			<string>Build Project2Kabissa</string>
+			<key>uniqueIdentifier</key>
+			<string>E9F22B4A-0D71-4F9A-B6F4-0244E7D10557</string>
+		</dict>
+		<key>EECD22A2-04FF-486D-90BF-926BE638053D</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>EECD22A2-04FF-486D-90BF-926BE638053D.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>Project2Kabissa project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Project2Kabissa</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Project2Kabissa</string>
+			<key>timeStartedRecording</key>
+			<real>570302306.67839003</real>
+			<key>timeStoppedRecording</key>
+			<real>570302306.92897904</real>
+			<key>title</key>
+			<string>Build Project2Kabissa</string>
+			<key>uniqueIdentifier</key>
+			<string>EECD22A2-04FF-486D-90BF-926BE638053D</string>
+		</dict>
+		<key>F22C3563-C0C1-41C3-9CF6-2C4E434BF3F9</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>F22C3563-C0C1-41C3-9CF6-2C4E434BF3F9.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>Project2Kabissa project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Project2Kabissa</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Project2Kabissa</string>
+			<key>timeStartedRecording</key>
+			<real>570302708.92093098</real>
+			<key>timeStoppedRecording</key>
+			<real>570302714.37718201</real>
+			<key>title</key>
+			<string>Build Project2Kabissa</string>
+			<key>uniqueIdentifier</key>
+			<string>F22C3563-C0C1-41C3-9CF6-2C4E434BF3F9</string>
+		</dict>
+		<key>F293A7D4-3DBC-4CAC-8E8A-2D328AAE1585</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>F293A7D4-3DBC-4CAC-8E8A-2D328AAE1585.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>Project2Kabissa project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Project2Kabissa</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Project2Kabissa</string>
+			<key>timeStartedRecording</key>
+			<real>570295976.86184502</real>
+			<key>timeStoppedRecording</key>
+			<real>570295977.04508996</real>
+			<key>title</key>
+			<string>Build Project2Kabissa</string>
+			<key>uniqueIdentifier</key>
+			<string>F293A7D4-3DBC-4CAC-8E8A-2D328AAE1585</string>
+		</dict>
+		<key>F4FBFE2C-D92B-4032-A2E1-30EA4ABE4014</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>F4FBFE2C-D92B-4032-A2E1-30EA4ABE4014.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>Project2Kabissa project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Project2Kabissa</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Project2Kabissa</string>
+			<key>timeStartedRecording</key>
+			<real>570284689.44331896</real>
+			<key>timeStoppedRecording</key>
+			<real>570284691.99502897</real>
+			<key>title</key>
+			<string>Build Project2Kabissa</string>
+			<key>uniqueIdentifier</key>
+			<string>F4FBFE2C-D92B-4032-A2E1-30EA4ABE4014</string>
+		</dict>
+		<key>FA5116CD-9DE5-4004-B462-1988B23A0EDE</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>FA5116CD-9DE5-4004-B462-1988B23A0EDE.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>Project2Kabissa project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Project2Kabissa</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Project2Kabissa</string>
+			<key>timeStartedRecording</key>
+			<real>570284939.51468003</real>
+			<key>timeStoppedRecording</key>
+			<real>570284942.56564498</real>
+			<key>title</key>
+			<string>Build Project2Kabissa</string>
+			<key>uniqueIdentifier</key>
+			<string>FA5116CD-9DE5-4004-B462-1988B23A0EDE</string>
+		</dict>
+		<key>FADF6EA7-FE06-4FB6-BFDE-F26A2399388F</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>FADF6EA7-FE06-4FB6-BFDE-F26A2399388F.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>Project2Kabissa project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Project2Kabissa</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Project2Kabissa</string>
+			<key>timeStartedRecording</key>
+			<real>570285026.43452597</real>
+			<key>timeStoppedRecording</key>
+			<real>570285028.04591894</real>
+			<key>title</key>
+			<string>Build Project2Kabissa</string>
+			<key>uniqueIdentifier</key>
+			<string>FADF6EA7-FE06-4FB6-BFDE-F26A2399388F</string>
+		</dict>
+		<key>FD903517-CF39-4A7D-96ED-31D65A656E3C</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>FD903517-CF39-4A7D-96ED-31D65A656E3C.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>Project2Kabissa project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Project2Kabissa</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Project2Kabissa</string>
+			<key>timeStartedRecording</key>
+			<real>570284160.85490406</real>
+			<key>timeStoppedRecording</key>
+			<real>570284164.22782803</real>
+			<key>title</key>
+			<string>Build Project2Kabissa</string>
+			<key>uniqueIdentifier</key>
+			<string>FD903517-CF39-4A7D-96ED-31D65A656E3C</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

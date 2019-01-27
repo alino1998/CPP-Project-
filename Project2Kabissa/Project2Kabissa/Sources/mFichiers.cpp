@@ -72,11 +72,12 @@ void ajoutToTable(Achat tabA[],int &na,Client tabC[],int nc,Produit tabP[],int n
 }
 
 //
-void Update_f(string f_location,Client tab[],int n){
+void Update_f(string f_location,Client tab[],int n,bool &fInteraction){
     
     ofstream fichier(f_location.c_str(), ios::out | ios::trunc);
     if(fichier)
     {
+        fInteraction=true;
         fichier<<"*fichier des clients*"<<endl;
         for (int i=0; i<n; i++) {
             fichier <<tab[i].getCodeClient()<<"\t";
@@ -89,16 +90,17 @@ void Update_f(string f_location,Client tab[],int n){
         fichier.close();
     }
     else
-        cerr << "Impossible d'ouvrir le fichier !" << endl;
+        fInteraction=false;
     
 }
 
 
-void Update_f(string f_location,Produit tab[],int n){
+void Update_f(string f_location,Produit tab[],int n,bool &fInteraction){
     
     ofstream fichier(f_location.c_str(), ios::out | ios::app);
     if(fichier)
     {
+        fInteraction=true;
         fichier<<"*fichier des produits*"<<endl;
         for (int i=0; i<n; i++) {
             fichier <<tab[i].getIdProduit()<<"\t";
@@ -109,14 +111,15 @@ void Update_f(string f_location,Produit tab[],int n){
         fichier.close();
     }
     else
-        cerr << "Impossible d'ouvrir le fichier !" << endl;
+        fInteraction=false;
     
 }
 
-void Update_f(string f_location,Achat tab[],int n){
+void Update_f(string f_location,Achat tab[],int n,bool &fInteraction){
     ofstream fichier(f_location.c_str(), ios::out | ios::app);
     if(fichier)
     {
+        fInteraction=true;
         fichier<<"*fichier des achats*"<<endl;
         for (int i=0; i<n; i++) {
             fichier <<tab[i].getIdAchat()<<"\t";
@@ -137,7 +140,7 @@ void Update_f(string f_location,Achat tab[],int n){
         fichier.close();
     }
     else
-        cerr << "Impossible d'ouvrir le fichier !" << endl;
+        fInteraction=false;
     
 }
 
@@ -145,11 +148,12 @@ void Update_f(string f_location,Achat tab[],int n){
 // function to update table
 
 
-void Update_tab(string f_location,Client tab[],int &n){
+void Update_tab(string f_location,Client tab[],int &n,bool &fInteraction){
     n=0;
     ifstream fichier(f_location.c_str(), ios::in);
     if(fichier)
     {
+        fInteraction=true;
         string ligne;
         bool test=false;
         while(getline(fichier, ligne))
@@ -171,14 +175,15 @@ void Update_tab(string f_location,Client tab[],int &n){
         fichier.close();
     }
     else
-        cerr << "Impossible d'ouvrir le fichier !" << endl;
+        fInteraction=false;
 }
 
-void Update_tab(string f_location,Produit tab[],int &n){
+void Update_tab(string f_location,Produit tab[],int &n,bool &fInteraction){
     n=0;
     ifstream fichier(f_location.c_str(), ios::in);
     if(fichier)
     {
+        fInteraction=true;
         string ligne;
         bool test=false;
         while(getline(fichier, ligne))
@@ -200,14 +205,15 @@ void Update_tab(string f_location,Produit tab[],int &n){
         fichier.close();
     }
     else
-        cerr << "Impossible d'ouvrir le fichier !" << endl;
+        fInteraction=false;
 }
 
-void Update_tab(string f_location,Achat tabA[],int &na,Client tabC[],int nc,Produit tabP[],int np ){
+void Update_tab(string f_location,Achat tabA[],int &na,Client tabC[],int nc,Produit tabP[],int np,bool &fInteraction ){
     na=0;
     ifstream fichier(f_location.c_str(), ios::in);
     if(fichier)
     {
+        fInteraction=true;
         string ligne;
         bool test=false;
         while(getline(fichier, ligne))
@@ -229,11 +235,6 @@ void Update_tab(string f_location,Achat tabA[],int &na,Client tabC[],int nc,Prod
         fichier.close();
     }
     else
-        cerr << "Impossible d'ouvrir le fichier !" << endl;
+        fInteraction=false;
 }
-
-
-
-//int i = std::stoi(a)+10; // string -> integer
-//float f = std::stof(a)+10.2; // string -> float
 

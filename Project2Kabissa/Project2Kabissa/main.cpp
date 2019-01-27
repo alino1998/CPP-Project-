@@ -16,18 +16,19 @@
 #include "mAjoutSupprimerModifier.h"
 using namespace std;
 int Client::compteurClient=0;
+int Achat::idAchatCompteur=0;
 
 //instanciation des objets de classes crées
 void instanciationObjet(Client tabc[],Produit tabp[],Achat taba[]){
-    Client cli1("okinawa","alain kibalo","Rabat","M","10/09/1998");
-    Client cli2("karaka","horizon","cassanblanca","feminin","10/7/1998");
+    Client cli1("kabissa","alain kibalo","Rabat","m","10/09/1998");
+    Client cli2("karaka","horizon","cassablanca","f","10/7/1998");
     Produit prod1(1234,"Jus d'ananas",10,2);
     Produit prod2(323,"Mangue",5,10);
     Produit t[2];
     t[0]=prod1;
     t[1]=prod1;
-    Achat ach1(233,cli1,t,2,"10/23/45");
-    Achat ach3(212,cli2,t,2,"10/23/45");
+    Achat ach1(cli1,t,2,"10/12/2018");
+    Achat ach3(cli2,t,2,"15/12/2018");
     tabc[0]=cli1;
     tabc[1]=cli2;
     tabp[0]=prod1;
@@ -54,6 +55,24 @@ void msg2(){
 void msg3(){
     cout<<"erreur"<<endl;
 }
+void msg4(bool x){
+    if(x){
+        cout<<"telechargement du fichier terminé avec succes :) vous pouvez commencer !!! "<<endl;
+    }else{
+        cerr<<"Impossible d'ouvrir le fichier !"<<endl;
+    }
+}
+
+void msg5(bool x){
+    if(x){
+        cout<<"*****fichier mis a jour*****"<<endl;
+    }else{
+        cerr<<"Impossible d'ouvrir le fichier pour mise à jour !"<<endl;
+    }
+}
+void msg6(){
+    cout<<"+++++ Bienvenue dans AlinosMarket application de gestion de magasin +++++"<<endl;
+}
 
 
 //les switch cases
@@ -63,19 +82,20 @@ int main(int argc, const char * argv[]) {
     // insert code here...
 
     int sTC=2,sTP=2,sTA=2;
-    string const f_location="/Users/mac/Desktop/C++Learning/CPP-Project-/Project2Kabissa/Project2Kabissa/Files/test.txt";//indiquer le repertoire avant de commencer !!!
-    Client::resetCompteur();
+    string const f_location="/Users/mac/Desktop/C++Learning/CPP-Project-/Project2Kabissa/Project2Kabissa/Files/test.txt";
+     //indiquer le repertoire du fichier avant de commencer!!!
+    string sortir="oui";
+    bool testUploadingFichier=false;
     Client *tabClient=new Client[100];
     Produit *tabProduit=new Produit[100];
     Achat *tabAchat=new Achat[100];
-    //instanciationObjet(tabClient,tabProduit,tabAchat);
+    instanciationObjet(tabClient,tabProduit,tabAchat);
     //updating programme tables
-    Update_tab(f_location, tabClient, sTC);
-    Update_tab(f_location, tabProduit, sTP);
-    Update_tab(f_location, tabAchat, sTA, tabClient, sTC, tabProduit, sTP);
-    cout<<"-----Bienvenue dans votre programme de gestion de magasin-----"<<endl;
-    cout<<"telechargement des fichiers terminés avec succes :) vous pouvez commencer !!! "<<endl;
-    string sortir="oui";
+    Update_tab(f_location, tabClient, sTC,testUploadingFichier);
+    Update_tab(f_location, tabProduit, sTP,testUploadingFichier);
+    Update_tab(f_location, tabAchat, sTA, tabClient, sTC, tabProduit, sTP,testUploadingFichier);
+    msg4(testUploadingFichier);
+    msg6();
     while (sortir[0]!='n' && sortir[0]!='N' ) {
         msg1();
         int choix;
@@ -148,7 +168,6 @@ int main(int argc, const char * argv[]) {
                         msg3();
                         break;
                 }
-                cout << "*****fichier mis a jour*****" << endl;
             }
                 break;
             case 4:
@@ -172,7 +191,6 @@ int main(int argc, const char * argv[]) {
                         msg3();
                         break;
                 }
-                cout << "*****fichier mis a jour*****" << endl;
             }
                 break;
             case 5:
@@ -197,7 +215,6 @@ int main(int argc, const char * argv[]) {
                         msg3();
                         break;
                 }
-                cout << "*****fichier mis a jour*****" << endl;
             }
                 break;
                 
@@ -205,9 +222,10 @@ int main(int argc, const char * argv[]) {
                 msg3();
                 break;
         }
-        Update_f(f_location, tabClient, sTC);
-        Update_f(f_location, tabProduit, sTP);
-        Update_f(f_location, tabAchat, sTA);
+        Update_f(f_location, tabClient, sTC,testUploadingFichier);
+        Update_f(f_location, tabProduit, sTP,testUploadingFichier);
+        Update_f(f_location, tabAchat, sTA,testUploadingFichier);
+        msg5(testUploadingFichier);
         cout<<"Voulez vous continuer (Oui/Non) : ";
         getline(cin,sortir);
     }
@@ -216,5 +234,4 @@ int main(int argc, const char * argv[]) {
     delete [] tabClient;
     return 0;
 }
-
-/// a revoir ajout achat
+/// a revoir ajout achat  /Users/mac/Library/Developer/Xcode/DerivedData

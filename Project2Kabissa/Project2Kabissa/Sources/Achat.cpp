@@ -30,7 +30,19 @@ Achat::Achat(){
 
 Achat::Achat(int id,Client p,Produit tab[],int taille,string d){
     IdAchat=id;
-    client=Client(p);
+    idAchatCompteur=IdAchat;
+    client=p;
+    taillePanier=taille;
+    for (int i=0; i<taillePanier; i++) {
+        panierAchat[i]=tab[i];
+    }
+    date=traitement_date(d);
+}
+
+Achat::Achat(Client p,Produit tab[],int taille,string d){
+    idAchatCompteur++;
+    IdAchat=idAchatCompteur;
+    client=p;
     taillePanier=taille;
     for (int i=0; i<taillePanier; i++) {
         panierAchat[i]=tab[i];
@@ -64,10 +76,6 @@ string Achat::getDate(){
 
 
 //modificateurs
-
-void Achat::setIdAchat(int id){
-    IdAchat=id;
-};
 void Achat::setClient(Client c){
     client=c;
 };

@@ -16,12 +16,12 @@
 #include "Achat.h"
 using namespace std;
 
-void Update_f(string f_location,Client tab[],int n);
-void Update_f(string f_location,Produit tab[],int n);
-void Update_f(string f_location,Achat tab[],int n);
+void Update_f(string f_location,Client tab[],int n,bool &fInteraction);
+void Update_f(string f_location,Produit tab[],int n,bool &fInteraction);
+void Update_f(string f_location,Achat tab[],int n,bool &fInteraction);
 
-void Update_tab(string f_location,Client tab[],int &n);
-void Update_tab(string f_location,Produit tab[],int &n);
-void Update_tab(string f_location,Achat tabA[],int &na,Client tabC[],int nc,Produit tabP[],int np );
+void Update_tab(string f_location,Client tab[],int &n,bool &fInteraction);
+void Update_tab(string f_location,Produit tab[],int &n,bool &fInteraction);
+void Update_tab(string f_location,Achat tabA[],int &na,Client tabC[],int nc,Produit tabP[],int np,bool &fInteraction );
 
 #endif /* mFichiers_h */

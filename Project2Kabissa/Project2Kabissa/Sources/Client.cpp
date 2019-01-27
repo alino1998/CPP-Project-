@@ -15,7 +15,6 @@ using namespace std;
 
 
 Client::Client(){
-    compteurClient++;
     codeClient=compteurClient;
     nom="nom_definit";
     prenom="nom_definit";
@@ -36,7 +35,7 @@ Client::Client(string name1,string prenom1,string ville1,string sexe1,string d){
 
 Client::Client(int id,string name1,string prenom1,string ville1,string sexe1,string d){
     codeClient=id;
-    compteurClient=id;
+    compteurClient=codeClient;
     nom=name1;
     prenom=prenom1;
     ville=ville1;
@@ -102,10 +101,6 @@ void Client::setSexe(string sexe1){
 
 void Client::setDateNaissance(string newValeur){
     dateNaissance=traitement_date(newValeur);
-}
-//reset compteur to 0 when program loding first
-void Client::resetCompteur(){
-    compteurClient=0;
 }
 
 

@@ -17,6 +17,13 @@
 #include "mAjoutSupprimerModifier.h"
 using namespace std;
 
+//methodes d'affichage reppetitifs
+void mes1(){
+    cout<<"Sexe incorrect veillez ressaisir (format f ou m ) : ";
+}
+void mes2(){
+    cout<<"Date de naissance incorrect veillez ressaisir (format jour/mois/annee, ex: 10/09/1998) : ";
+}
 
 //ajouter des donnees
 void ajout(Client tab[],int &n){
@@ -28,10 +35,18 @@ void ajout(Client tab[],int &n){
     getline(cin,prenom);
     cout<<"Ville : ";
     getline(cin,ville);
-    cout<<"Sexe : ";
+    cout<<"Sexe (format m ou f) : ";
     getline(cin,sexe);
-    cout<<"Date de naissance : ";
+    while (traitement_sexe(sexe)=="Incorrect") {
+        mes1();
+        getline(cin,sexe);
+    }
+    cout<<"Date de naissance (format jour/mois/annee, ex: 10/09/1998) : ";
     getline(cin,happybirhday);
+    while (traitement_date(happybirhday)=="Incorrect") {
+        mes2();
+        getline(cin,happybirhday);
+    }
     Client newClient(nom,prenom,ville,sexe,happybirhday);
     tab[n]=newClient;
     n++;
@@ -60,13 +75,11 @@ void ajout(Produit tab[],int &n){
 
 void ajout(Achat tabA[],int &na,Client tabC[],int nc,Produit tabP[],int np ){
     string date,verification="";
-    int idachat,idclient,taille=100,tailleReel=0,id=0;
+    int idclient,taille=100,tailleReel=0,id=0;
     Client achetteur;
     Produit prodAcheter;
     Produit *tabprim=new Produit[taille];
     cout<<"Veillez saisir les informations de l'achat a ajouter "<<endl;
-    cout<<"id : ";
-    cin>>idachat;
     cout<<"entrez l'identifiant du client parmi la liste affichée"<<endl;
     affichage(tabC, nc);
     cout<<"id client : ";
@@ -78,15 +91,24 @@ void ajout(Achat tabA[],int &na,Client tabC[],int nc,Produit tabP[],int np ){
         cout<<"Id produit "<<tailleReel+1<<" : ";
         cin>>id;
         prodAcheter=searchItem(tabP, np, id);
+        for (int i=0; i<np; i++) {
+            if(tabP[i].getIdProduit()==id){
+                tabP[i].setquantite(tabP[i].getquantite()-1);
+            }
+        }
         tabprim[tailleReel]=prodAcheter;
         tailleReel++;
         cin.ignore();
         cout<<"continuer a ajouter ? (Oui/Non) : ";
         getline(cin,verification);
     } while (verification[0]!='n' && verification[0]!='N');
-    cout<<"date : ";
+    cout<<"date (format jour/mois/annee, ex: 10/09/1998) : ";
     getline(cin,date);
-    Achat newAchat(idachat,achetteur,tabprim,tailleReel,date);
+    while (traitement_date(date)=="Incorrect") {
+        mes2();
+        getline(cin,date);
+    }
+    Achat newAchat(achetteur,tabprim,tailleReel,date);
     tabA[na]=newAchat;
     na++;
     delete [] tabprim;
@@ -164,9 +186,13 @@ void modif(Client tab[],int n){
             break;
         case 4:
         {string AModifier;
-            cout<<"entrez le nouveau sexe du client : ";
+            cout<<"entrez le nouveau sexe du client (format m|f) : ";
             cin.ignore();
             getline(cin,AModifier);
+            while (traitement_sexe(AModifier)=="Incorrect") {
+                mes1();
+                getline(cin,AModifier);
+            }
             for (int i=0; i<n; i++) {
                 if(tab[i].getCodeClient()==id){
                     tab[i].setSexe(AModifier);
@@ -181,9 +207,13 @@ void modif(Client tab[],int n){
             break;
         case 5:
         {string AModifier;
-            cout<<"entrez la nouvelle date de naissance du client : ";
+            cout<<"entrez la nouvelle date de naissance du client (format jour/mois/annee, ex: 10/09/1998) : ";
             cin.ignore();
             getline(cin,AModifier);
+            while (traitement_date(AModifier)=="Incorrect") {
+                mes2();
+                getline(cin,AModifier);
+            }
             for (int i=0; i<n; i++) {
                 if(tab[i].getCodeClient()==id){
                     tab[i].setDateNaissance(AModifier);
@@ -311,23 +341,6 @@ void modif(Achat tabA[],int na,Client tabC[],int nc,Produit tabP[],int np ){
     cin>>choix;
     switch (choix) {
         case 1:
-        {int AModifier;
-            cout<<"entrez le nouveau identifiant de l'achat : ";
-            cin>>AModifier;
-            cin.ignore();
-            for (int i=0; i<na; i++) {
-                if(tabA[i].getIdAchat()==id){
-                    tabA[i].setIdAchat(AModifier);
-                    x=false;
-                }
-            }
-            if(x){
-                cout<<"*****Aucun achat correspondant a votre identifiant saisi*****"<<endl;
-            }else{
-                cout<<"*****modification effectuer avec success*****"<<endl;
-            }}
-            break;
-        case 2:
         {
             int AModifier;
             Client nouveau;
@@ -347,7 +360,7 @@ void modif(Achat tabA[],int na,Client tabC[],int nc,Produit tabP[],int np ){
                 cout<<"*****modification effectuer avec success*****"<<endl;
             }}
             break;
-        case 3:
+        case 2:
         {
             string verification="";
             int taille=100,tailleReel=0,idprod=0;
@@ -381,11 +394,15 @@ void modif(Achat tabA[],int na,Client tabC[],int nc,Produit tabP[],int np ){
             
         }
             break;
-        case 4:
+        case 3:
         {string AModifier;
-            cout<<"entrez la nouvelle date de l'achat : ";
+            cout<<"entrez la nouvelle date de l'achat (format jour/mois/annee, ex: 10/09/1998) : ";
             cin.ignore();
             getline(cin,AModifier);
+            while (traitement_date(AModifier)=="Incorrect") {
+                mes2();
+                getline(cin,AModifier);
+            }
             for (int i=0; i<na; i++) {
                 if(tabA[i].getIdAchat()==id){
                     tabA[i].setDate(AModifier);

@@ -68,7 +68,7 @@ string traitement_date(string dateTo){
     int s=0,jour=0,mois=0,annee=0;
     string *recuptab=new string[100];
     decoupMots(recuptab,s, dateTo,'/');
-    if(s==3){
+    if(s==3 && !std::isupper((recuptab[0])[0]) && !std::islower((recuptab[0])[0]) && !std::isupper((recuptab[1])[0]) && !std::islower((recuptab[1])[0]) && !std::isupper((recuptab[2])[0]) && !std::islower((recuptab[2])[0])){
         jour =std::stoi(recuptab[0]);
         mois =std::stoi(recuptab[1]);
         annee =std::stoi(recuptab[2]);
@@ -93,3 +93,4 @@ string traitement_sexe(string sexeTo){
         }
     }
 }
+

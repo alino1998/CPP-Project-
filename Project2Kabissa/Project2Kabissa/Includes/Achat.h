@@ -21,9 +21,11 @@ private:
     string date;
     int taillePanier;
     Produit *panierAchat= new Produit[10];
+    static int idAchatCompteur;
 public:
     Achat();
     Achat(int,Client,Produit [],int,string);
+    Achat(Client,Produit [],int,string);
     ~Achat();
     
     int getIdAchat();
@@ -32,7 +34,6 @@ public:
     int getTaillePanier();
     string getDate();
     
-    void setIdAchat(int);
     void setClient(Client);
     void setPanierAchat(Produit tab[],int);
     void setTaillePanier(int);
