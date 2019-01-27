@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		044C97A821FD4BD40036A0CB /* AutresMethodes.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 044C97A721FD4BD30036A0CB /* AutresMethodes.cpp */; };
 		04B6729C21FBC2D4006FA856 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04B6729B21FBC2D4006FA856 /* main.cpp */; };
 		04B672A521FBC36E006FA856 /* Client.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04B672A421FBC36E006FA856 /* Client.cpp */; };
 		04B672A721FBC39A006FA856 /* Achat.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04B672A621FBC39A006FA856 /* Achat.cpp */; };
@@ -29,6 +30,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		044C97A621FD4BA80036A0CB /* AutresMethodes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AutresMethodes.h; sourceTree = "<group>"; };
+		044C97A721FD4BD30036A0CB /* AutresMethodes.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = AutresMethodes.cpp; sourceTree = "<group>"; };
 		04B6729821FBC2D4006FA856 /* Project2Kabissa */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Project2Kabissa; sourceTree = BUILT_PRODUCTS_DIR; };
 		04B6729B21FBC2D4006FA856 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		04B672A421FBC36E006FA856 /* Client.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Client.cpp; sourceTree = "<group>"; };
@@ -91,6 +94,7 @@
 				04B672A621FBC39A006FA856 /* Achat.cpp */,
 				04B672B021FBCF95006FA856 /* mAjoutSupprimerModifier.cpp */,
 				04B672AE21FBCD26006FA856 /* mListerRechercher.cpp */,
+				044C97A721FD4BD30036A0CB /* AutresMethodes.cpp */,
 				04B672B721FCB617006FA856 /* mFichiers.cpp */,
 				04B672A821FBC3B1006FA856 /* Produit.cpp */,
 			);
@@ -105,6 +109,7 @@
 				04B672AD21FBCD02006FA856 /* mListerRechercher.h */,
 				04B672B421FCB55E006FA856 /* mFichiers.h */,
 				04B672AC21FBC9FA006FA856 /* Achat.h */,
+				044C97A621FD4BA80036A0CB /* AutresMethodes.h */,
 				04B672B221FBCFB2006FA856 /* mAjoutSupprimerModifier.h */,
 			);
 			path = Includes;
@@ -174,6 +179,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				044C97A821FD4BD40036A0CB /* AutresMethodes.cpp in Sources */,
 				04B672B121FBCF95006FA856 /* mAjoutSupprimerModifier.cpp in Sources */,
 				04B672A721FBC39A006FA856 /* Achat.cpp in Sources */,
 				04B672AF21FBCD26006FA856 /* mListerRechercher.cpp in Sources */,

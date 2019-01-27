@@ -1,5 +1,5 @@
 //
-//  mFichiers.h
+//
 //  Project2Kabissa
 //
 //  Created by KAO Kezie Hermann on 26/01/19.
@@ -22,6 +22,6 @@ void Update_f(string f_location,Achat tab[],int n);
 
 void Update_tab(string f_location,Client tab[],int &n);
 void Update_tab(string f_location,Produit tab[],int &n);
-void Update_tab(string f_location,Achat tab[],int &n);
+void Update_tab(string f_location,Achat tabA[],int &na,Client tabC[],int nc,Produit tabP[],int np );
 
 #endif /* mFichiers_h */
