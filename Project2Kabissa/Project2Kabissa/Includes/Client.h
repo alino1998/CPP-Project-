@@ -41,7 +41,7 @@ public:
     void setVille(string);
     void setSexe(string);
     void setDateNaissance(string);
-    
+    static void resetCompteur();
     void afficher();
     
 };

@@ -17,6 +17,7 @@ using namespace std;
 
 Produit searchItem(Produit [],int ,int );
 Client searchItem(Client [],int ,int );
-void decoupMots(string [],string);
 void decoupMots(string [],int &,string,char);
+string traitement_date(string);
+string traitement_sexe(string);
 #endif /* AutresMethodes_h */

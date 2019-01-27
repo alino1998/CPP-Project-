@@ -12,6 +12,7 @@
 #include "Produit.h"
 #include "Achat.h"
 #include "Client.h"
+#include "AutresMethodes.h"
 using namespace std;
 
 //constructeur et desctructeur
@@ -34,7 +35,7 @@ Achat::Achat(int id,Client p,Produit tab[],int taille,string d){
     for (int i=0; i<taillePanier; i++) {
         panierAchat[i]=tab[i];
     }
-    date=d;
+    date=traitement_date(d);
 }
 
 Achat::~Achat(){
@@ -79,8 +80,8 @@ void Achat::setPanierAchat(Produit tab[], int n){
         panierAchat[i]=tab[i];
     }
 }
-void Achat::setDate(string s){
-    date=s;
+void Achat::setDate(string d){
+    date=traitement_date(d);
 };
 
 //affichage

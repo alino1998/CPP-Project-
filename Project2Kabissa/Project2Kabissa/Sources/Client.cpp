@@ -10,19 +10,18 @@
 #include <iostream>
 #include <string>
 #include "Client.h"
+#include "AutresMethodes.h"
 using namespace std;
-
-//constructeur et desctructeur
 
 
 Client::Client(){
     compteurClient++;
     codeClient=compteurClient;
-    nom="Aucun";
-    prenom="Aucun";
-    ville="Aucun";
-    sexe="nom definit";
-    dateNaissance="neant";
+    nom="nom_definit";
+    prenom="nom_definit";
+    ville="nom_definit";
+    sexe="nom_definit";
+    dateNaissance="nom_definit";
 }
 
 Client::Client(string name1,string prenom1,string ville1,string sexe1,string d){
@@ -31,26 +30,18 @@ Client::Client(string name1,string prenom1,string ville1,string sexe1,string d){
     nom=name1;
     prenom=prenom1;
     ville=ville1;
-    if(sexe1[0]=='m'||sexe1[0]=='M'){
-       sexe="M";
-    }else{
-        sexe="F";
-    }
-    dateNaissance=d;
+    sexe=traitement_sexe(sexe1);
+    dateNaissance=traitement_date(d);
 }
 
 Client::Client(int id,string name1,string prenom1,string ville1,string sexe1,string d){
     codeClient=id;
-    compteurClient=compteurClient;
+    compteurClient=id;
     nom=name1;
     prenom=prenom1;
     ville=ville1;
-    if(sexe1[0]=='m'||sexe1[0]=='M'){
-        sexe="M";
-    }else{
-        sexe="F";
-    }
-    dateNaissance=d;
+    sexe=traitement_sexe(sexe1);
+    dateNaissance=traitement_date(d);
 }
 
 
@@ -105,12 +96,16 @@ void Client::setVille(string newValeur){
     ville=newValeur;
 }
 
-void Client::setSexe(string newValeur){
-    sexe=newValeur;
+void Client::setSexe(string sexe1){
+    sexe=traitement_sexe(sexe1);
 }
 
 void Client::setDateNaissance(string newValeur){
-    dateNaissance=newValeur;
+    dateNaissance=traitement_date(newValeur);
+}
+//reset compteur to 0 when program loding first
+void Client::resetCompteur(){
+    compteurClient=0;
 }
 
 

@@ -1,5 +1,11 @@
 *fichier des clients*
-301	bogar	kibalo alain	rabat	M	10/09/1998.
+301	okinawa	alain kibalo	Rabat	M	10/09/1998	
+302	karaka	horizon	cassanblanca	F	23/06/2000	
+305	kabissa	kibalo alain	Rabat	M	10/09/1998	
+312	kabissa	kibalo alain	Casa	M	10/09/1998	
 *fichier des produits*
-178	gari	5	90.
+1234	Jus d'ananas	10	2	
+323	Mangue	5	10	
 *fichier des achats*
+233	okinawa alain kibalo	301	1234-1234-	18/09/2018	
+212	karaka horizon	302	1234-1234-	14/12/2019	

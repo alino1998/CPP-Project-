@@ -46,22 +46,6 @@ string truncateMots(string mot, int n){
     }
     return motretour;
 }
-//
-
-void decoupMots(string mytab[],string ligne){
-    int p=0;
-    string mot="";
-    unsigned long a=ligne.size();
-    for (int j=0; j<a; j++) {
-        mot =mot+ligne[j];
-        if (ligne[j]=='\t'||ligne[j]=='.'){
-            string mot2=truncateMots(mot, 1);
-            mytab[p]=mot2;
-            p++;
-            mot="";
-        }
-    }
-}
 
 void decoupMots(string mytab[],int &taille,string ligne,char caractere){
     int p=0;
@@ -77,4 +61,35 @@ void decoupMots(string mytab[],int &taille,string ligne,char caractere){
         }
     }
     taille=p;
+}
+
+string traitement_date(string dateTo){
+    dateTo+="/";
+    int s=0,jour=0,mois=0,annee=0;
+    string *recuptab=new string[100];
+    decoupMots(recuptab,s, dateTo,'/');
+    if(s==3){
+        jour =std::stoi(recuptab[0]);
+        mois =std::stoi(recuptab[1]);
+        annee =std::stoi(recuptab[2]);
+    }
+    delete [] recuptab;
+    if (jour>0 && jour<=31 && mois>0 && mois<=12 && annee>0 && annee<=2019) {
+        dateTo=truncateMots(dateTo, 1);
+        return dateTo;
+    }
+    else{
+        return "Incorrect";
+    }
+}
+string traitement_sexe(string sexeTo){
+    if(sexeTo[0]=='m'||sexeTo[0]=='M'){
+        return "M";
+    }else{
+        if(sexeTo[0]=='f'||sexeTo[0]=='F'){
+            return "F";
+        }else{
+            return "Incorrect";
+        }
+    }
 }

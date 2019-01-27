@@ -84,7 +84,7 @@ void Update_f(string f_location,Client tab[],int n){
             fichier <<tab[i].getPrenom()<<"\t";
             fichier <<tab[i].getVille()<<"\t";
             fichier <<tab[i].getSexe()<<"\t";
-            fichier <<tab[i].getDateNaissance()<<"."<<endl;
+            fichier <<tab[i].getDateNaissance()<<"\t"<<endl;
         }
         fichier.close();
     }
@@ -104,7 +104,7 @@ void Update_f(string f_location,Produit tab[],int n){
             fichier <<tab[i].getIdProduit()<<"\t";
             fichier <<tab[i].getNom()<<"\t";
             fichier <<tab[i].getprixUnitaire()<<"\t";
-            fichier <<tab[i].getquantite()<<"."<<endl;
+            fichier <<tab[i].getquantite()<<"\t"<<endl;
         }
         fichier.close();
     }
@@ -132,7 +132,7 @@ void Update_f(string f_location,Achat tab[],int n){
             }
             delete [] tabprim;
             fichier <<idProd<<"\t";
-            fichier <<tab[i].getDate()<<"."<<endl;
+            fichier <<tab[i].getDate()<<"\t"<<endl;
         }
         fichier.close();
     }
@@ -158,10 +158,11 @@ void Update_tab(string f_location,Client tab[],int &n){
                 test=false;
             }
             if (test) {
-                int s=6;
-                string recuptab[s];
-                decoupMots(recuptab, ligne);
+                int s=0;
+                string *recuptab=new string[100];
+                decoupMots(recuptab,s, ligne,'\t');
                 ajoutToTable(tab, n, recuptab);
+                delete [] recuptab;
             }
             if (ligne=="*fichier des clients*") {
                 test=true;
@@ -186,10 +187,11 @@ void Update_tab(string f_location,Produit tab[],int &n){
                 test=false;
             }
             if (test) {
-                int s=4;
-                string recuptab[s];
-                decoupMots(recuptab, ligne);
+                int s=0;
+                string *recuptab=new string[100];
+                decoupMots(recuptab,s, ligne,'\t');
                 ajoutToTable(tab, n, recuptab);
+                delete [] recuptab;
             }
             if (ligne=="*fichier des produits*") {
                 test=true;
@@ -214,10 +216,11 @@ void Update_tab(string f_location,Achat tabA[],int &na,Client tabC[],int nc,Prod
                 test=false;
             }
             if (test) {
-                int s=5;
-                string recuptab[s];
-                decoupMots(recuptab, ligne);
+                int s=0;
+                string *recuptab=new string[100];
+                decoupMots(recuptab,s, ligne,'\t');
                 ajoutToTable(tabA,na,tabC,nc,tabP,np, recuptab);
+                delete [] recuptab;
             }
             if (ligne=="*fichier des achats*") {
                 test=true;

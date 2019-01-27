@@ -98,7 +98,9 @@ void ajout(Achat tabA[],int &na,Client tabC[],int nc,Produit tabP[],int np ){
 void modif(Client tab[],int n){
     int choix,id;
     bool x=true;
-    cout<<"entrez le code du client a modifier : ";
+    cout<<"entrez le code du client a modifier parmi la liste des clients : "<<endl;
+    affichage(tab , n);
+    cout<<"id : ";
     cin>>id;
     cout<<"Que voulez vous modifier  :"<<endl;
     cout<<"1 : pour le nom "<<endl;
@@ -205,7 +207,9 @@ void modif(Client tab[],int n){
 void modif(Produit tab[],int n){
     int choix,id;
     bool x=true;
-    cout<<"entrez l'identifiant du produit a modifier : ";
+    cout<<"entrez l'identifiant du produit a modifier parmi la liste des produits : "<<endl;
+    affichage(tab , n);
+    cout<<"id : ";
     cin>>id;
     cout<<"Que voulez vous modifier  :"<<endl;
     cout<<"1 : pour l'identifiant "<<endl;
@@ -294,7 +298,9 @@ void modif(Produit tab[],int n){
 void modif(Achat tabA[],int na,Client tabC[],int nc,Produit tabP[],int np ){
     int choix,id;
     bool x=true;
-    cout<<"entrez l'identifiant de l'achat a modifier : ";
+    cout<<"entrez l'identifiant de l'achat a modifier parmi la liste des achtas : "<<endl;
+    affichage(tabA, na);
+    cout<<"id : ";
     cin>>id;
     cout<<"Que voulez vous modifier  :"<<endl;
     cout<<"1 : pour l'identifiant "<<endl;

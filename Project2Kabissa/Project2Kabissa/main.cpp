@@ -63,7 +63,8 @@ int main(int argc, const char * argv[]) {
     // insert code here...
 
     int sTC=2,sTP=2,sTA=2;
-    string const f_location="/Users/mac/Desktop/C++Learning/CPP-Project-/Project2Kabissa/Project2Kabissa/Files/test.txt";
+    string const f_location="/Users/mac/Desktop/C++Learning/CPP-Project-/Project2Kabissa/Project2Kabissa/Files/test.txt";//indiquer le repertoire avant de commencer !!!
+    Client::resetCompteur();
     Client *tabClient=new Client[100];
     Produit *tabProduit=new Produit[100];
     Achat *tabAchat=new Achat[100];
