@@ -1,4 +1,5 @@
-1234	Jus d'ananas	10	2.
-323	Mangue	5	10.
-11	dd	22	33.
-112	sddd	122	445.
+*fichier des clients*
+301	bogar	kibalo alain	rabat	M	10/09/1998.
+*fichier des produits*
+178	gari	5	90.
+*fichier des achats*

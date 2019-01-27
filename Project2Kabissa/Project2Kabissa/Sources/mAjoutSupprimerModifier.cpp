@@ -13,33 +13,12 @@
 #include "Produit.h"
 #include "Achat.h"
 #include "mListerRechercher.h"
+#include "AutresMethodes.h"
 #include "mAjoutSupprimerModifier.h"
 using namespace std;
 
-//fonctions de recherche avec retour
-Produit searchItem(Produit tab[],int n,int id){
-    Produit x;
-    for (int i=0; i<n; i++) {
-        if(tab[i].getIdProduit()==id){
-            x=tab[i];
-        }
-    }
-    return x;
-}
-Client searchItem(Client tab[],int n,int id){
-    Client x;
-    for (int i=0; i<n; i++) {
-        if(tab[i].getCodeClient()==id){
-            x=tab[i];
-        }
-    }
-    return x;
-}
-//
-
 
 //ajouter des donnees
-
 void ajout(Client tab[],int &n){
     string nom,prenom,ville,sexe,happybirhday;
     cout<<"Veillez saisir les informations du clients a ajouter "<<endl;

@@ -38,7 +38,7 @@ void instanciationObjet(Client tabc[],Produit tabp[],Achat taba[]){
 
 //les messages d'affichages
 void msg1(){
-    cout<<"que voulez vous faire"<<endl;
+    cout<<"que voulez vous faire ?"<<endl;
     cout<<"1 : pour lister des donnees "<<endl;
     cout<<"2 : rechercher des donnees  "<<endl;
     cout<<"3 : modifier des donnees "<<endl;
@@ -67,9 +67,14 @@ int main(int argc, const char * argv[]) {
     Client *tabClient=new Client[100];
     Produit *tabProduit=new Produit[100];
     Achat *tabAchat=new Achat[100];
-    instanciationObjet(tabClient,tabProduit,tabAchat);
-    
-    string sortir="oui";/*
+    //instanciationObjet(tabClient,tabProduit,tabAchat);
+    //updating programme tables
+    Update_tab(f_location, tabClient, sTC);
+    Update_tab(f_location, tabProduit, sTP);
+    Update_tab(f_location, tabAchat, sTA, tabClient, sTC, tabProduit, sTP);
+    cout<<"-----Bienvenue dans votre programme de gestion de magasin-----"<<endl;
+    cout<<"telechargement des fichiers terminés avec succes :) vous pouvez commencer !!! "<<endl;
+    string sortir="oui";
     while (sortir[0]!='n' && sortir[0]!='N' ) {
         msg1();
         int choix;
@@ -142,6 +147,7 @@ int main(int argc, const char * argv[]) {
                         msg3();
                         break;
                 }
+                cout << "*****fichier mis a jour*****" << endl;
             }
                 break;
             case 4:
@@ -165,6 +171,7 @@ int main(int argc, const char * argv[]) {
                         msg3();
                         break;
                 }
+                cout << "*****fichier mis a jour*****" << endl;
             }
                 break;
             case 5:
@@ -189,6 +196,7 @@ int main(int argc, const char * argv[]) {
                         msg3();
                         break;
                 }
+                cout << "*****fichier mis a jour*****" << endl;
             }
                 break;
                 
@@ -196,19 +204,12 @@ int main(int argc, const char * argv[]) {
                 msg3();
                 break;
         }
+        Update_f(f_location, tabClient, sTC);
+        Update_f(f_location, tabProduit, sTP);
+        Update_f(f_location, tabAchat, sTA);
         cout<<"Voulez vous continuer (Oui/Non) : ";
         getline(cin,sortir);
-    }*/
-//////    ajout(tabProduit, sTP);
-//////    ajout(tabProduit, sTP);
-//////    Update_f(f_location,tabProduit, sTP);
-////    Update_tab(f_location, tabProduit, sTP);
-////    affichage(tabProduit, sTP);
-////    ajout(tabAchat, sTA, tabClient, sTC, tabProduit, sTP);
-//    affichage(tabAchat, sTA);
-//    modif(tabAchat, sTA, tabClient, sTC, tabProduit, sTP);
-//    supprimer(tabAchat, sTA);
-//    affichage(tabAchat, sTA);
+    }
     delete [] tabProduit;
     delete [] tabAchat;
     delete [] tabClient;
