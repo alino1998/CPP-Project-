@@ -12,6 +12,7 @@
 #include "Client.h"
 #include "Produit.h"
 #include "Achat.h"
+#include "mListerRechercher.h"
 #include "mAjoutSupprimerModifier.h"
 using namespace std;
 
@@ -79,25 +80,37 @@ void ajout(Produit tab[],int &n){
 
 
 void ajout(Achat tabA[],int &na,Client tabC[],int nc,Produit tabP[],int np ){
-    string date;
-    int idachat,idclient,idproduit;
+    string date,verification="";
+    int idachat,idclient,taille=100,tailleReel=0,id=0;
     Client achetteur;
     Produit prodAcheter;
+    Produit *tabprim=new Produit[taille];
     cout<<"Veillez saisir les informations de l'achat a ajouter "<<endl;
     cout<<"id : ";
     cin>>idachat;
-    cout<<"entrez l'identifiant du client : ";
+    cout<<"entrez l'identifiant du client parmi la liste affichée"<<endl;
+    affichage(tabC, nc);
+    cout<<"id client : ";
     cin>>idclient;
-    cout<<"entrez l'identifiant du produit : ";
-    cin>>idproduit;
-    cin.ignore();
     achetteur=searchItem(tabC, nc, idclient);
-    prodAcheter=searchItem(tabP, np, idproduit);
+    cout<<"entrez les identifiants des produits achetés parmi la liste affichée"<<endl;
+    affichage(tabP, np);
+    do {
+        cout<<"Id produit "<<tailleReel+1<<" : ";
+        cin>>id;
+        prodAcheter=searchItem(tabP, np, id);
+        tabprim[tailleReel]=prodAcheter;
+        tailleReel++;
+        cin.ignore();
+        cout<<"continuer a ajouter ? (Oui/Non) : ";
+        getline(cin,verification);
+    } while (verification[0]!='n' && verification[0]!='N');
     cout<<"date : ";
     getline(cin,date);
-    Achat newAchat(idachat,achetteur,prodAcheter,date);
+    Achat newAchat(idachat,achetteur,tabprim,tailleReel,date);
     tabA[na]=newAchat;
     na++;
+    delete [] tabprim;
     cout<<"*****Achat ajoute*****"<<endl;
 }
 
@@ -307,11 +320,10 @@ void modif(Achat tabA[],int na,Client tabC[],int nc,Produit tabP[],int np ){
     cout<<"Que voulez vous modifier  :"<<endl;
     cout<<"1 : pour l'identifiant "<<endl;
     cout<<"2 : pour le client "<<endl;
-    cout<<"3 : pour le produit "<<endl;
+    cout<<"3 : pour les produits achetés "<<endl;
     cout<<"4 : pour la date "<<endl;
     cout<< "votre choix : ";
     cin>>choix;
-    cin.ignore();
     switch (choix) {
         case 1:
         {int AModifier;
@@ -351,23 +363,38 @@ void modif(Achat tabA[],int na,Client tabC[],int nc,Produit tabP[],int np ){
             }}
             break;
         case 3:
-        {int AModifier;
-            Produit nouveau;
-            cout<<"entrez l'identifiant du nouveau produit achete : ";
-            cin>>AModifier;
-            cin.ignore();
-            nouveau=searchItem(tabP,np, AModifier);
+        {
+            string verification="";
+            int taille=100,tailleReel=0,idprod=0;
+            Client achetteur;
+            Produit prodAcheter;
+            Produit *tabprim=new Produit[taille];
+            cout<<"entrez les identifiants du nouveaux produits achetés par la liste de produits : "<<endl;
+            affichage(tabP, np);
+            do {
+                cout<<"Id produit "<<tailleReel+1<<" : ";
+                cin>>idprod;
+                prodAcheter=searchItem(tabP, np, idprod);
+                tabprim[tailleReel]=prodAcheter;
+                tailleReel++;
+                cin.ignore();
+                cout<<"continuer a ajouter ? (Oui/Non) : ";
+                getline(cin,verification);
+            } while (verification[0]!='n' && verification[0]!='N');
             for (int i=0; i<na; i++) {
                 if(tabA[i].getIdAchat()==id){
-                    tabA[i].setProduitAchete(nouveau);
+                    tabA[i].setPanierAchat(tabprim, tailleReel);
                     x=false;
                 }
             }
+            delete [] tabprim;
             if(x){
                 cout<<"*****Aucun achat correspondant a votre identifiant saisi*****"<<endl;
             }else{
                 cout<<"*****modification effectuer avec success*****"<<endl;
-            }}
+            }
+            
+        }
             break;
         case 4:
         {string AModifier;
@@ -392,14 +419,14 @@ void modif(Achat tabA[],int na,Client tabC[],int nc,Produit tabP[],int np ){
     }
     
 }
-
 // suppression
 
 void supprimer(Client tab[],int &n){
     int Asupprimer,j=0;
     Client newtab[n];
     bool x=false;
-    cout<<"entrez le code du client a supprimer : ";
+    cout<<"entrez le code du client a supprimer parmi la liste des achats : ";
+    affichage(tab, n);
     cin>>Asupprimer;
     for (int i=0; i<n; i++) {
         if(tab[i].getCodeClient()!=Asupprimer){
@@ -425,7 +452,8 @@ void supprimer(Produit tab[],int &n){
     int Asupprimer,j=0;
     Produit newtab[n];
     bool x=false;
-    cout<<"entrez le code du produit a supprimer : ";
+    cout<<"entrez le code du produit a supprimer parmi la liste des achats : ";
+    affichage(tab, n);
     cin>>Asupprimer;
     for (int i=0; i<n; i++) {
         if(tab[i].getIdProduit()!=Asupprimer){
@@ -451,7 +479,8 @@ void supprimer(Achat tab[],int &n){
     int Asupprimer,j=0;
     Achat newtab[n];
     bool x=false;
-    cout<<"entrez le code de l'achat a supprimer : ";
+    cout<<"entrez le code de l'achat a supprimer parmi la liste des achats : ";
+    affichage(tab, n);
     cin>>Asupprimer;
     for (int i=0; i<n; i++) {
         if(tab[i].getIdAchat()!=Asupprimer){

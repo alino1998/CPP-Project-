@@ -18,22 +18,24 @@ class Achat{
 private:
     int IdAchat;
     Client client;
-    Produit ProduitAchete;
     string date;
-    
+    int taillePanier;
+    Produit *panierAchat= new Produit[10];
 public:
     Achat();
-    Achat(int,Client,Produit,string);
+    Achat(int,Client,Produit [],int,string);
     ~Achat();
     
     int getIdAchat();
     Client getClient();
-    Produit getProduitAchete();
+    void getPanierAchat(Produit [],int &) ;
+    int getTaillePanier();
     string getDate();
     
     void setIdAchat(int);
     void setClient(Client);
-    void setProduitAchete(Produit);
+    void setPanierAchat(Produit tab[],int);
+    void setTaillePanier(int);
     void setDate(string);
     
     void afficher();

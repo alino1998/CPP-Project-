@@ -115,7 +115,7 @@ void Update_f(string f_location,Produit tab[],int n){
         cerr << "Impossible d'ouvrir le fichier !" << endl;
     
 }
-
+/*
 void Update_f(Achat tab[],int n){
     string const f_location="/Users/mac/Desktop/C++Learning/KabissaProjectCpp2/KabissaProjectCpp2/save_fichiers/test.txt";
     
@@ -136,6 +136,7 @@ void Update_f(Achat tab[],int n){
         cerr << "Impossible d'ouvrir le fichier !" << endl;
     
 }
+ */
 
 // function to update table
 

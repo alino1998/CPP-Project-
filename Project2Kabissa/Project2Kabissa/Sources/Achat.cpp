@@ -19,15 +19,21 @@ using namespace std;
 
 Achat::Achat(){
     IdAchat=0;
-    client=Client();;
-    ProduitAchete=Produit();
-    date="0/0/0";
+    client=Client();
+    taillePanier=1;
+    for (int i=0; i<taillePanier; i++) {
+        panierAchat[i]=Produit();
+    }
+    date="neant";
 }
 
-Achat::Achat(int id,Client p,Produit x,string d){
+Achat::Achat(int id,Client p,Produit tab[],int taille,string d){
     IdAchat=id;
     client=Client(p);
-    ProduitAchete=Produit(x);
+    taillePanier=taille;
+    for (int i=0; i<taillePanier; i++) {
+        panierAchat[i]=tab[i];
+    }
     date=d;
 }
 
@@ -35,19 +41,26 @@ Achat::~Achat(){
 }
 
 //accesseurs
-
 int Achat::getIdAchat(){
     return IdAchat;
 };
 Client Achat::getClient(){
     return client;
 };
-Produit Achat::getProduitAchete(){
-    return ProduitAchete;
-};
+void Achat::getPanierAchat(Produit tab[],int &n){
+    n=taillePanier;
+    for (int i=0; i<n; i++) {
+        tab[i]=panierAchat[i];
+    }
+}
+int Achat::getTaillePanier(){
+    return taillePanier;
+}
 string Achat::getDate(){
     return date;
 };
+
+
 
 //modificateurs
 
@@ -57,9 +70,15 @@ void Achat::setIdAchat(int id){
 void Achat::setClient(Client c){
     client=c;
 };
-void Achat::setProduitAchete(Produit p){
-    ProduitAchete=p;
-};
+void Achat::setTaillePanier(int n){
+    taillePanier=n;
+}
+void Achat::setPanierAchat(Produit tab[], int n){
+    setTaillePanier(n);
+    for (int i=0; i<taillePanier; i++) {
+        panierAchat[i]=tab[i];
+    }
+}
 void Achat::setDate(string s){
     date=s;
 };
@@ -67,6 +86,12 @@ void Achat::setDate(string s){
 //affichage
 void Achat::afficher(){
     cout<<IdAchat;
-    cout<<" | "<<client.getNom()<<" "<<client.getPrenom()<<" | ";
-    cout<<ProduitAchete.getIdProduit()<<" | "<<date<<endl;
+    cout<<" | "<<client.getNom()<<" "<<client.getPrenom()<<" | les produits achetés [ ";
+    for (int i=0; i<taillePanier; i++) {
+        cout<<panierAchat[i].getNom();
+        if(i<taillePanier-1){
+            cout<<" ,";
+        }
+    }
+    cout<<" ] | "<<date<<endl;
 }

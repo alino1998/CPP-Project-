@@ -22,7 +22,6 @@ void affichage(Client tab[],int n){
     for (int i=0; i<n; i++) {
         tab[i].afficher();
     }
-    cout<<"*****Client affiché*****"<<endl;
 }
 
 
@@ -31,14 +30,12 @@ void affichage(Produit tab[],int n){
     for (int i=0; i<n; i++) {
         tab[i].afficher();
     }
-    cout<<"*****Produit affiché*****"<<endl;
 }
 void affichage(Achat tab[],int n){
     cout<<"listes des achats effectués "<<endl;
     for (int i=0; i<n; i++) {
         tab[i].afficher();
     }
-    cout<<"*****Achat affiché*****"<<endl;
 }
 
 //recherche d'un objet
@@ -251,6 +248,7 @@ void recherche(Produit tab[],int n){
     
 }
 
+
 void recherche(Achat tab[],int n){
     int choix;
     bool x=true;
@@ -300,10 +298,20 @@ void recherche(Achat tab[],int n){
             cout<<"entrez l'identifiant du produit a rechercher : ";
             cin>>Arechercher;
             for (int i=0; i<n; i++) {
-                if(tab[i].getProduitAchete().getIdProduit()==Arechercher){
-                    tab[i].afficher();
-                    x=false;
+                Produit *tabprim=new Produit[100];
+                bool test=false;
+                int taille=0;
+                tab[i].getPanierAchat(tabprim, taille);
+                for (int j=0; j<taille; j++) {
+                    if (tabprim[j].getIdProduit()==Arechercher) {
+                        test=true;
+                    }
                 }
+                if (test) {
+                    tab[i].afficher();
+                }
+                delete [] tabprim;
+                
             }
             if(x){
                 cout<<"*****Aucun achat correspondant a votre type de recherche*****"<<endl;

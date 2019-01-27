@@ -23,14 +23,17 @@ void instanciationObjet(Client tabc[],Produit tabp[],Achat taba[]){
     Client cli2("karaka","horizon","cassanblanca","feminin","10/7/1998");
     Produit prod1(1234,"Jus d'ananas",10,2);
     Produit prod2(323,"Mangue",5,10);
-    Achat Ach1(123,cli2,prod1,"10/10/2019");
-    Achat ach2(12,cli1,prod1,"10/10/2019");
+    Produit t[2];
+    t[0]=prod1;
+    t[1]=prod1;
+    Achat ach1(233,cli1,t,2,"10/23/45");
+    Achat ach3(212,cli2,t,2,"10/23/45");
     tabc[0]=cli1;
     tabc[1]=cli2;
     tabp[0]=prod1;
     tabp[1]=prod2;
-    taba[0]=Ach1;
-    taba[1]=ach2;
+    taba[0]=ach1;
+    taba[1]=ach3;
 }
 
 //les messages d'affichages
@@ -61,9 +64,9 @@ int main(int argc, const char * argv[]) {
 
     int sTC=2,sTP=2,sTA=2;
     string const f_location="/Users/mac/Desktop/C++Learning/CPP-Project-/Project2Kabissa/Project2Kabissa/Files/test.txt";
-    Client tabClient[100];
-    Produit tabProduit[100];
-    Achat tabAchat[100];
+    Client *tabClient=new Client[100];
+    Produit *tabProduit=new Produit[100];
+    Achat *tabAchat=new Achat[100];
     instanciationObjet(tabClient,tabProduit,tabAchat);
     
     string sortir="oui";/*
@@ -80,15 +83,18 @@ int main(int argc, const char * argv[]) {
                     switch (choix2) {
                         case 1:
                             {affichage(tabClient, sTC);
+                            cout<<"*****Client affiché*****"<<endl;
                             cin.ignore();}
                             break;
                         case 2:
                             {affichage(tabProduit, sTP);
+                            cout<<"*****Produit affiché*****"<<endl;
                             cin.ignore();}
                             break;
                         case 3:
-                            affichage(tabAchat, sTA);
-                            cin.ignore();
+                            {affichage(tabAchat, sTA);
+                            cout<<"*****Achat affiché*****"<<endl;
+                            cin.ignore();}
                             break;
                         default:
                             msg3();
@@ -193,11 +199,19 @@ int main(int argc, const char * argv[]) {
         cout<<"Voulez vous continuer (Oui/Non) : ";
         getline(cin,sortir);
     }*/
-//    ajout(tabProduit, sTP);
-//    ajout(tabProduit, sTP);
-//    Update_f(f_location,tabProduit, sTP);
-    Update_tab(f_location, tabProduit, sTP);
-    affichage(tabProduit, sTP);
+//////    ajout(tabProduit, sTP);
+//////    ajout(tabProduit, sTP);
+//////    Update_f(f_location,tabProduit, sTP);
+////    Update_tab(f_location, tabProduit, sTP);
+////    affichage(tabProduit, sTP);
+////    ajout(tabAchat, sTA, tabClient, sTC, tabProduit, sTP);
+//    affichage(tabAchat, sTA);
+//    modif(tabAchat, sTA, tabClient, sTC, tabProduit, sTP);
+//    supprimer(tabAchat, sTA);
+//    affichage(tabAchat, sTA);
+    delete [] tabProduit;
+    delete [] tabAchat;
+    delete [] tabClient;
     return 0;
 }
 
